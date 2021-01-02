@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1575932219 source:c:\projekty\main\main.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<time.h>
+	<conio.h>
+

@@ -1,0 +1,3 @@
+156.17.4.11 ASPMX.L.GOOGLE.COM
+
+149.156.169.67 mailin1a.srv.uj.edu.pl

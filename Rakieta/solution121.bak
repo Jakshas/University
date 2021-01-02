@@ -1,0 +1,58 @@
+#lang typed/racket
+(struct const    ([val : (U Number Boolean)])            #:transparent)
+(struct binop    ([op : Symbol] [l : Expr] [r : Expr])   #:transparent)
+(struct var-expr ([id : Symbol])                         #:transparent)
+(struct let-expr ([id : Symbol] [e1 : Expr] [e2 : Expr]) #:transparent)
+
+(define-type Expr (U const binop var-expr let-expr))
+(define-type Binop-sym (U '+ '- '* '/))
+(define-type Ide Symbol)
+(define-predicate ide? Ide)
+(define-predicate expr? Expr)
+(define-predicate binop-sym? Binop-sym)
+(define-type  EType (U'real'boolean))
+
+(: parse (-> Any Expr))
+(define (parse q)
+  (match q
+    [_ #:when (or (number? q) (boolean? q))
+       (const q)]
+    [_ #:when (ide? q)
+       (var-expr q)]
+    [`(,op ,e1 ,e2) #:when (binop-sym? op)
+                    (binop op
+                           (parse e1)
+                           (parse e2))]
+    [`(let (,x ,e1) ,e2) #:when (ide? x)
+     (let-expr x 
+               (parse e1)
+               (parse e2))]))
+
+(: subst (-> Expr Symbol Expr Expr))
+(define (subst e1 x e2)
+  (match e2
+    [(var-expr y) (if (eq? x y) e1 (var-expr y))]
+    [(const n) (const n)]
+    [(binop op l r)
+     (binop op (subst e1 x l) (subst e1 x r))]
+    [(let-expr y e3 e4)
+     (let-expr y (subst e1 x e3) 
+                 (if (eq? x y) e4 (subst e1 x e4)))]))
+
+(define-type Value (U Real Boolean))
+
+(: op->proc (-> Symbol (-> Value Value Value)))
+(define (op->proc op)
+  (let ([f (match op ['+ +] ['- -] ['* *] ['/ /] ['< <] ['> >] ['<= <=] ['>= >=] ['= =])])
+    (lambda (x y) 
+      (if (and (number? x) (number? y))
+          (f x y)
+          (error "Type mismatch")))))
+
+(: eval (-> Expr Value))
+(define (eval e)
+  (match e
+    [(const n) n]
+    [(binop op l r) ((op->proc op) (eval l) (eval r))]
+    [(let-expr x e1 e2)
+     (eval (subst (const (eval e1)) x e2))]))

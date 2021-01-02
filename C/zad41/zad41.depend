@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1572962923 source:c:\projekty\zad41\main.c
+	<stdio.h>
+	<stdlib.h>
+	"wymierne.h"
+
+1572962954 c:\projekty\zad41\wymierne.h
+
+1572962946 source:c:\projekty\zad41\wymierne.c
+	<stdio.h>
+	<stdlib.h>
+	"wymierne.h"
+

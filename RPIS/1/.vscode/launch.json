@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - licz",
+            "request": "launch",
+            "mainClass": "licz",
+            "projectName": "1_ce3ed759",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - rpis",
+            "request": "launch",
+            "mainClass": "rpis",
+            "projectName": "1_ce3ed759",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rpis<RPIS_3be2c337>",
+            "request": "launch",
+            "mainClass": "rpis",
+            "projectName": "RPIS_3be2c337",
+            "args": "1"
+        }
+    ]
+}

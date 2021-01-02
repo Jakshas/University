@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.cs": "csharp",
+        "xstring": "cpp",
+        "deque": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp"
+    }
+}

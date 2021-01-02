@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572788914 source:c:\projekty\zad32\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

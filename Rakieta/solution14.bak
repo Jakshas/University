@@ -1,0 +1,8 @@
+#lang racket
+
+(require racklog)
+
+(define %row-ok
+  %rel ()
+  [null null]
+  [null (cons '_ ys)])

@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 700px;
+    height: 400px;
+    align-self: center;
+  }
+  h1{
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      color: blue;
+  }
+  h2{
+    position:relative;
+    left:50px;
+  }
+  .flex-containers {
+    display: flex;
+    background-color: lightblue;
+    flex-direction: row;
+  }
+  
+  .flex-containers > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    height: 20px;
+  }

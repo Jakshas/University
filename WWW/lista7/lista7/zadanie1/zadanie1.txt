@@ -1,0 +1,10 @@
+'SERVER_ADDR'
+    The IP address of the server under which the current script is executing. 
+'SERVER_NAME'
+    The name of the server host under which the current script is executing. If the script is running on a virtual host, this will be the value defined for that virtual host. 
+'REQUEST_METHOD'
+    Which request method was used to access the page; e.g. 'GET', 'HEAD', 'POST', 'PUT'. 
+'HTTP_CONNECTION'
+    Contents of the Connection: header from the current request, if there is one. Example: 'Keep-Alive'. 
+'HTTP_HOST'
+    Contents of the Host: header from the current request, if there is one. 

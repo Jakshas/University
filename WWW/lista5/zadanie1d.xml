@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="zadanie1.xsd">
+
+    <dane>
+    <nrkonta>00 0323 2320 3232 2332 3232 3233</nrkonta>
+    <pesel>03231439842</pesel>
+    <data>2000-01-12</data>
+    <email>egzample@gmail.com</email>
+    </dane>
+        
+</form>

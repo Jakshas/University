@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1574643916 source:c:\projekty\62\main.c
+	<stdio.h>
+	<stdlib.h>
+	"modul.h"
+
+1574643859 c:\projekty\62\modul.h
+	<stdbool.h>
+
+1574643490 source:c:\projekty\62\modul.c
+	"modul.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+

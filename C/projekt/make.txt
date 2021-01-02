@@ -1,0 +1,8 @@
+#Makefile
+
+projekt: main.o funkcje.o
+gcc -std=c11 -Wall -Wextra -Werror main.o funkcje.o -o projekt -lm
+main.o: main.c funkcje.h
+gcc -std=c11 -Wall -Wextra -Werror -c main.c -o main.o
+funkcje.o: funkcje.c funkcje.h
+gcc -std=c11 -Wall -Wextra -Werror -c funkcje.c -o funkcje.o

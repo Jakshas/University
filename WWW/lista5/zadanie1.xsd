@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:element name="form">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element name="dane" maxOccurs="unbounded">
+      <xsd:complexType>
+        <xsd:sequence>
+      <xsd:element name="nrkonta" type="nrkonta"/>
+      <xsd:element name="pesel" type="pesel"/>
+      <xsd:element name="data" type="xsd:date"/>
+      <xsd:element name="email" type="emailAddress"/>
+        </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+      <xsd:simpleType name="emailAddress"> 
+      <xsd:restriction base="xsd:string"> 
+      <xsd:pattern value="[^@]+@[^\.]+\..+"/> 
+      </xsd:restriction> 
+      </xsd:simpleType>
+      <xsd:simpleType name="nrkonta"> 
+      <xsd:restriction base="xsd:string"> 
+      <xsd:pattern value="[0-9]{2}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}"/> 
+      </xsd:restriction> 
+      </xsd:simpleType>
+      <xsd:simpleType name="pesel"> 
+      <xsd:restriction base="xsd:string"> 
+      <xsd:pattern value="\d\d\d\d\d\d\d\d\d\d\d"/> 
+      </xsd:restriction> 
+      </xsd:simpleType>
+</xsd:schema>

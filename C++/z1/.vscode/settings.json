@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.cs": "csharp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "xstring": "cpp"
+    }
+}

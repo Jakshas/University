@@ -1,0 +1,32 @@
+#lang racket
+(define (average z y)
+  (/ (+ z y) 2))
+(define (mn x)
+  (* x x)
+  )
+(define (square x)
+  (* x x))
+(define (compose f g)
+  (lambda (x) (f (g x))))
+(define (repeated p n)
+  (if (< n 2)
+      (identity p)
+      (compose p (repeated p (- n 1)))))
+((repeated mn 2) 2) 
+(define (dist x y)
+  (abs (- x y)))
+
+(define (nth-root x)
+  (define (improve guess)
+    (average guess (/ x guess)))
+  (define (good-enough? g)
+    (< (dist x (square g))
+       0.0001))
+  (define (iter guess)
+    (if (good-enough? guess)
+        guess
+        (iter (improve guess))))
+  
+  (iter 1.0))
+
+(nth-root 4)

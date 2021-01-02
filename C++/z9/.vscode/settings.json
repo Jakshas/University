@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.cs": "csharp",
+        "regex": "cpp",
+        "xstring": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp"
+    }
+}

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1575400130 source:c:\projekty\try\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<ctype.h>
+

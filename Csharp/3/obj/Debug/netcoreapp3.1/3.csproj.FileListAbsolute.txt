@@ -1,0 +1,11 @@
+C:\Projekty\Csharp\3\bin\Debug\netcoreapp3.1\3.exe
+C:\Projekty\Csharp\3\bin\Debug\netcoreapp3.1\3.deps.json
+C:\Projekty\Csharp\3\bin\Debug\netcoreapp3.1\3.runtimeconfig.json
+C:\Projekty\Csharp\3\bin\Debug\netcoreapp3.1\3.runtimeconfig.dev.json
+C:\Projekty\Csharp\3\bin\Debug\netcoreapp3.1\3.dll
+C:\Projekty\Csharp\3\bin\Debug\netcoreapp3.1\3.pdb
+C:\Projekty\Csharp\3\obj\Debug\netcoreapp3.1\3.csprojAssemblyReference.cache
+C:\Projekty\Csharp\3\obj\Debug\netcoreapp3.1\3.AssemblyInfoInputs.cache
+C:\Projekty\Csharp\3\obj\Debug\netcoreapp3.1\3.AssemblyInfo.cs
+C:\Projekty\Csharp\3\obj\Debug\netcoreapp3.1\3.dll
+C:\Projekty\Csharp\3\obj\Debug\netcoreapp3.1\3.pdb

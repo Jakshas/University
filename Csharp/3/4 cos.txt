@@ -1,0 +1,106 @@
+    class Grafiki{
+        string wyruzniony;
+        T terminale;
+        N nieterminale;
+        P reguly;
+        int lT;
+        int lN;
+        int lP;
+
+        Grafiki(){
+            wyruzniony="";
+            terminale=null;
+            nieterminale=null;
+            reguly=null;
+            lT=0;
+            lN=0;
+            lP=0;
+        }
+        public string losowa(){
+            if(wyruzniony==""||terminale==null||nieterminale==null||reguly==null){
+                Console.WriteLine("brak danych w grafice");
+            }else
+            {
+                string slowo=this.wyruzniony;
+                while(this.czydasie(slowo)){
+
+                }
+            }
+            return "";
+        }
+        public bool czydasie(string slowo){
+            int x=0;
+            foreach(char element in slowo){
+                while(){
+                    
+                }
+            }
+        }
+        public void addT(string ter){
+            if(this.terminale==null){
+                this.terminale=new T(ter);
+                this.lT=1;
+            }else
+            {
+                T pom=this.terminale;
+                while(pom.next!=null){
+                    pom=pom.next;
+                }
+                pom.next=new T(ter);
+                this.lT=this.lT+1;
+            }
+        }
+        public void addN(string nter){
+            if(this.nieterminale==null){
+                this.nieterminale=new N(nter);
+            }else
+            {
+                N pom=this.nieterminale;
+                while(pom.next!=null){
+                    pom=pom.next;
+                }
+                pom.next=new N(nter);
+                this.lN=this.lN+1;
+            }
+        }
+        public void addP(string z,string d){
+            if(this.reguly==null){
+                this.reguly=new P(z,d);
+            }else
+            {
+                P pom=this.reguly;
+                while(pom.next!=null){
+                    pom=pom.next;
+                }
+                pom.next=new P(z,d);
+            }
+            this.lP=this.lP+1;
+        }
+        public void dodajwyruzniony(string p){
+            this.wyruzniony=p;
+        }
+    }
+    class T{
+        string terminal;
+        public T next;
+        public T(string t){
+            this.terminal=t;
+        }
+        
+    }
+    class N{
+        string nieterminal;
+        public N next;
+        public N(string t){
+            this.nieterminal=t;
+        }
+    }
+    class P{
+        public string z;
+        public string d;
+        public P next;
+        public P(string z,string d){
+            this.z=z;
+            this.d=d;
+        }
+    }

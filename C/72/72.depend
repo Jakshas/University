@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1574886165 source:c:\projekty\72\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	<stdbool.h>
+
+1574812978 c:\projekty\72\lista.h
+	<stdlib.h>
+	<stdbool.h>
+
+1574886088 source:c:\projekty\72\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	<stdbool.h>
+	<string.h>
+

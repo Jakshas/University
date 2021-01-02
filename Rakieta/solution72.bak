@@ -1,0 +1,67 @@
+#lang racket
+
+; --------- ;
+; Wyrazenia ;
+; --------- ;
+
+(struct const    (val)      #:transparent)
+(struct binop    (op l r)   #:transparent)
+(struct var-expr (id)       #:transparent)
+(struct var-dead (id)       #:transparent)
+(struct let-expr (id e1 e2) #:transparent)
+
+(define (expr? e)
+  (match e
+    [(const n) (number? n)]
+    [(binop op l r) (and (symbol? op) (expr? l) (expr? r))]
+    [(var-expr x) (symbol? x)]
+    [(var-dead x) (symbol? x)]
+    [(let-expr x e1 e2) (and (symbol? x) (expr? e1) (expr? e2))]
+    [_ false]))
+
+(define (parse q)
+  (cond
+    [(number? q) (const q)]
+    [(symbol? q) (var-expr q)]
+    [(and (list? q) (eq? (length q) 3) (eq? (first q) 'let))
+     (let-expr (first (second q))
+               (parse (second (second q)))
+               (parse (third q)))]
+    [(and (list? q) (eq? (length q) 3) (symbol? (first q)))
+     (binop (first q)
+            (parse (second q))
+            (parse (third q)))]))
+
+; ---------------------------------- ;
+; Wyszukaj ostatnie uzycie zmiennych ;
+; ---------------------------------- ;
+(struct environ (xs))
+(define env-empty (environ  null))
+(define(env-add x pos env)
+  (environ (cons (cons x pos) (environ-xs  env))))
+(define(env-lookup x env)
+  (define(assoc-lookup  xs)
+    (cond[(null? xs) #f]
+         [(eq? x (car (car xs))) (cdr (car xs))]
+         [else(assoc-lookup (cdr xs))]))
+  (assoc-lookup (environ-xs  env)))
+
+(define (rename formula)
+(define (rename-f formula env counter)
+    (match formula
+    [(const n) (const n)]
+    [(var-expr x) (var-expr (env-lookup x env))]
+    [(binop op l r) (binop op 
+                            (rename-f l env counter)
+                            (rename-f r env counter))]
+    [(let-expr x ex1 ex2) (let-expr (string->symbol(string-append(symbol->string x) (number->string counter)))
+                                    (rename-f ex1 
+                                              env
+                                              (+ 1 counter))
+                                    (rename-f ex2 
+                                              (env-add x (string->symbol(string-append (symbol->string 'x) (number->string counter))) env) 
+                                              (+ 1 counter)))]))
+(rename-f formula env-empty 1))
+
+
+; mozesz tez oczywiscie dopisac tu jakies procedury
