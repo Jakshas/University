@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>zadanie1,2,5</name>
+    </assembly>
+    <members>
+        <member name="T:zadanie1_2_5.Zadanie1">
+            <summary>
+               Klasa do zadania 1<br />
+            </summary>
+        </member>
+        <member name="M:zadanie1_2_5.Zadanie1.znajdzliczby">
+            <summary>Funkcja znajdująca liczby które są podzielone przez każdą swoich cyfr i ich sumę</summary>
+            <returns>
+              Lista liczb które są podzielone przez każdą swoich cyfr i ich sumę<br />
+            </returns>
+        </member>
+        <member name="T:zadanie1_2_5.Zadanie2">
+            <summary>
+              Klasa do zadania 2<br />
+            </summary>
+        </member>
+        <member name="T:zadanie1_2_5.Zadanie2.Grid">
+            <summary>
+              Klasa odpowiadająca za siatkę
+              <br />
+            </summary>
+        </member>
+        <member name="F:zadanie1_2_5.Zadanie2.Grid.tab">
+            <summary>Tablica dwuwymiarowa odpowiadajca siatce</summary>
+        </member>
+        <member name="M:zadanie1_2_5.Zadanie2.Grid.#ctor(System.Int32,System.Int32)">
+            <summary>Tworzy obiekt klasy <see cref="T:zadanie1_2_5.Zadanie2.Grid" />.</summary>
+            <param name="x">Szerokość</param>
+            <param name="y">Wysokość</param>
+        </member>
+        <member name="P:zadanie1_2_5.Zadanie2.Grid.Item(System.Int32)">
+            <summary>Znajduje wiersz o zadanym indexie.</summary>
+            <param name="index">Index.</param>
+            <value><see cref="!:System.Int32[]" />.</value>
+            <returns>
+              Wiersz siatki<br />
+            </returns>
+        </member>
+        <member name="P:zadanie1_2_5.Zadanie2.Grid.Item(System.Int32,System.Int32)">
+            <summary>ustawia albo pobiera <see cref="T:System.Int32" /> specyficznego indexu.</summary>
+            <param name="index1">X</param>
+            <param name="index2">Y</param>
+            <value><see cref="T:System.Int32" />.</value>
+            <returns>
+              Wartość na danych indeksach<br />
+            </returns>
+        </member>
+    </members>
+</doc>

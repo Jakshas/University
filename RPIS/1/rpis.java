@@ -33,22 +33,22 @@ public static double suma(double n,double a,double h) {
     return wynik;
 }
 public static void main(String[] args) {
-    double n=1;
-    double x=1;
-    double wyn=(1/2.0)+(ulamek(n)*policz(x,n));
-    System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
-    n=5;
-    x=2;
-    wyn=(1/2.0)+ulamek(n)*policz(x,n);
-    System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
-    n=10;
-    x=0.1;
-    wyn=(1/2.0)+ulamek(n)*policz(x,n);
-    System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
-    n=4;
-    x=4;
-    wyn=(1/2.0)+ulamek(n)*policz(x,n);
-    System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
+    // double n=1;
+    // double x=1;
+    // double wyn=(1/2.0)+(ulamek(n)*policz(x,n));
+    // System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
+    // n=5;
+    // x=2;
+    // wyn=(1/2.0)+ulamek(n)*policz(x,n);
+    // System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
+    // n=10;
+    // x=0.1;
+    // wyn=(1/2.0)+ulamek(n)*policz(x,n);
+    // System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
+    // n=4;
+    // x=4;
+    // wyn=(1/2.0)+ulamek(n)*policz(x,n);
+    // System.out.println("Dla stopnia swobody "+n+" i x="+ x+" otrzymujemy "+wyn);
 }
 public static double ulamek(double n){
     double wyng;

@@ -1,0 +1,13 @@
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\bin\Debug\netcoreapp3.1\zadanie2.exe
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\bin\Debug\netcoreapp3.1\zadanie2.deps.json
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\bin\Debug\netcoreapp3.1\zadanie2.runtimeconfig.json
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\bin\Debug\netcoreapp3.1\zadanie2.runtimeconfig.dev.json
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\bin\Debug\netcoreapp3.1\zadanie2.dll
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\bin\Debug\netcoreapp3.1\zadanie2.pdb
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\obj\Debug\netcoreapp3.1\zadanie2.csprojAssemblyReference.cache
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\obj\Debug\netcoreapp3.1\zadanie2.AssemblyInfoInputs.cache
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\obj\Debug\netcoreapp3.1\zadanie2.AssemblyInfo.cs
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\obj\Debug\netcoreapp3.1\zadanie2.csproj.CoreCompileInputs.cache
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\obj\Debug\netcoreapp3.1\zadanie2.dll
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\obj\Debug\netcoreapp3.1\zadanie2.pdb
+C:\Projekty\University\dotNet\Lista2\zadanie2.2\zadanie2\zadanie2\obj\Debug\netcoreapp3.1\zadanie2.genruntimeconfig.cache

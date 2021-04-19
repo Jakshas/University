@@ -1,0 +1,44 @@
+Posługuje się SQL Server
+
+
+tabela OSOBA:
+CREATE TABLE [dbo].[OSOBA](
+	[ID] [int] NOT NULL,
+	[Imie] [nvarchar](20) NOT NULL,
+	[Nazwisko] [nvarchar](20) NOT NULL,
+	[Plec] [char](1) NOT NULL,
+	[Data-ur] [date] NOT NULL
+) ON [PRIMARY]
+GO
+
+-nvarchar uzywamy ponieważ możemy mieć w bazie danych 
+osoby o imionach i nazwiskach z zagranicznymi znakami
+-date jest oczywiste bo wprowadzamy date
+-char uzywamy do płci poniewaz mamy tak naprawde dwa znaki gdzie jeen m oznacza męzczyzne f kobiete
+
+wariant pierwszy
+
+CREATE SEQUENCE dbo.seq1 
+AS BIGINT 
+START WITH 1 
+INCREMENT BY 1
+
+INSERT INTO OSOBA1(ID, Imie, Nazwisko, Plec, Data-ur)
+SELECT 
+NEXT VALUE FOR dbo.seq1, 'Jakub', 'Szajner', 'M', '2000-03-19'
+
+wariant drugi
+
+CREATE TABLE [dbo].[OSOBA](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Imie] [nvarchar](20) NOT NULL,
+	[Nazwisko] [nvarchar](20) NOT NULL,
+	[Plec] [char](1) NOT NULL,
+	[Data-ur] [date] NOT NULL
+) ON [PRIMARY]
+GO
+
+insert into OSOBA values('Jakub', 'Szajner', 'M', '2000-03-19')
+
+select * from OSOBA where Name='Szajner' - zwroci kazdy wiersz ktory ma nazwisko Szajner
+select count (Surname) from OSOBA where Surname='Jakub' - policzy ile jest Jakubów w bazie
