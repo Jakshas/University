@@ -1,0 +1,3 @@
+Najwlasciwszy będzie Items poniewarz Context wtedy bedzie istniuał tylko jeden request i wiele rzadkich 
+wyjatków tez bedzie poprawnie obsługiwanych w innych byłyby problemy z tworzeniem nowych kontekstów jak 
+i usówaniem ich w odpoiwednim momencie i z dosępnością tych danych.

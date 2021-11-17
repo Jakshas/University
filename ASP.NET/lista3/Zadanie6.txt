@@ -1,0 +1,1 @@
+Urzywany do zamykania aplikacji w trybie ofline. zwalnia zablokowane pliki ręczne zatrrzykmanie i uruchomieinie aplikacji

@@ -1,0 +1,3 @@
+IIS aktywuje procesy samemu przy pomocy Windows Process Activation Service 
+a w IIS Express uzytkownik musi sam zająć się aktywacja.
+nie moge zamiescic rozwiazania zadania bo jest za duze.

@@ -1,0 +1,7 @@
+﻿  Źródło.cpp
+C:\Projekty\University\.Net\Lista10\Zadanie1\Zadanie3.1\Źródło.cpp(12,35): error C2440: "=": nie można konwertować z "char [9]" na "LPCWSTR"
+C:\Projekty\University\.Net\Lista10\Zadanie1\Zadanie3.1\Źródło.cpp(12,24): message : Wskazane typy nie są powiązane; konwersja wymaga operatora reinterpret_cast, rzutowania w stylu języka C lub rzutowania w stylu funkcji
+C:\Projekty\University\.Net\Lista10\Zadanie1\Zadanie3.1\Źródło.cpp(28,9): error C2664: „HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)”: nie można dokonać konwersji argumentu 2 z „char [9]” do „LPCWSTR”
+C:\Projekty\University\.Net\Lista10\Zadanie1\Zadanie3.1\Źródło.cpp(30,3): message : Wskazane typy nie są powiązane; konwersja wymaga operatora reinterpret_cast, rzutowania w stylu języka C lub rzutowania w stylu funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : zobacz deklarację „CreateWindowExW”
+C:\Projekty\University\.Net\Lista10\Zadanie1\Zadanie3.1\Źródło.cpp(49,17): warning C4244: "return": konwersja z "WPARAM" do "int", możliwa utrata danych

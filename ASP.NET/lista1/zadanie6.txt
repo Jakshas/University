@@ -1,0 +1,2 @@
+W pierwszym przypadku lepiej deployowac do folderu ponieważ mozna łatwo przypisać na serwerze ścierzkę.
+W drugim przypadku wykożystuje się opcje Web Server (IIS) a pózniej narzedzie Web Deploy i uzupełnic dane do danego servera

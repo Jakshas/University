@@ -1,0 +1,11 @@
+Lista 3.1
+	Zadanie 1 - 1 pkt
+	Zadanie 2 - 1 pkt
+Lista 3.2
+	Zadanie 3 - 2 pkt
+
+Musiałem wyrzuić z rozwiazań pliki z ustawieniami bo wtedy 
+nie miesciły sie te 3 proste rozwiazania w 50 MB wiec trzeba 
+ponownie dodać do rozwiazań opcje w każdym wyłaczenie domyslnego 
+czytania stringów i w pierwszych zmienic na okienkową aplikacje. 
+Przepraszam za utrudnienia.

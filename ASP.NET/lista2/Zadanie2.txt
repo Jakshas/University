@@ -1,0 +1,4 @@
+Z fiddlerem miałem juz styczność na kursie WWW jak i weppo wiec wiem jak go używać. Kozystałem z 
+aplikaci z zadania 1
+Podczas wysyłania żądania post mamy dostępną część body a podczas geta nie ma jej dostępnej.
+Odróżniac można sprawdzając RequestType rządania.

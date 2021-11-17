@@ -1,3 +1,0 @@
-Różnice które wystepują w kodzie po dekompilacji i normalnym to są różnice optymalizacyjne 
-takie jak usunięcie pustych casów z switcha i uporządkowanie kodu. 
-Zmiany te wynikaja z działania kompilatora który chce otrzymac jak najoptymalniejszy kod.

@@ -1,0 +1,2 @@
+Nazwe mozna dodac dodajac do Content-Disposition filename a czy ma byc sciagniete czy pokazane
+mozna zmieniac dodajac odpowiedni content type. Znaki utf mozna dodac ustawiajace Content encoding na UTF8

@@ -1,0 +1,15 @@
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5.csprojAssemblyReference.cache
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\MainWindow.g.cs
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\App.g.cs
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5_MarkupCompile.cache
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5_MarkupCompile.lref
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\bin\Debug\Zadanie5.exe.config
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\bin\Debug\Zadanie5.exe
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\bin\Debug\Zadanie5.pdb
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\MainWindow.baml
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5.g.resources
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5.Properties.Resources.resources
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5.csproj.GenerateResource.cache
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5.csproj.CoreCompileInputs.cache
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5.exe
+C:\Projekty\University\dotNet\Lista8\Zadanie5\Zadanie5\obj\Debug\Zadanie5.pdb

@@ -1,0 +1,8 @@
+Lista 1
+	zadanie 3 1 pkt
+	zadanie 4 1 pkt
+Lista 2
+	zadanie 1 1 pkt
+	zadanie 2 3 pkt
+	zadanie 3 1 pkt
+	zadanie 4 1 pkt

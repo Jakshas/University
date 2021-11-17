@@ -1,0 +1,14 @@
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\bin\Debug\netcoreapp3.1\Zadanie7.exe
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\bin\Debug\netcoreapp3.1\Zadanie7.deps.json
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\bin\Debug\netcoreapp3.1\Zadanie7.runtimeconfig.json
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\bin\Debug\netcoreapp3.1\Zadanie7.runtimeconfig.dev.json
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\bin\Debug\netcoreapp3.1\Zadanie7.dll
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\bin\Debug\netcoreapp3.1\Zadanie7.pdb
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.Form1.resources
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.csproj.GenerateResource.cache
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.AssemblyInfoInputs.cache
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.AssemblyInfo.cs
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.csproj.CoreCompileInputs.cache
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.dll
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.pdb
+C:\Projekty\University\dotNet\Lista5\Zadanie7\Zadanie7\obj\Debug\netcoreapp3.1\Zadanie7.genruntimeconfig.cache

@@ -15,8 +15,9 @@ static void print(uint64_t x) {
 
 int main(int argc, char const *argv[])
 {
-    uint64_t i = addsb(0x0000000100000000);
-    print(0x0000000100000000);
+    uint64_t i = addsb(0x0000000000000000);
+    print(0x0000000000000000);
     print(i);
+    printf("%ld\n",i);
     return 0;
 }

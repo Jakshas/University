@@ -18,7 +18,7 @@
  * W moim rozwiązaniu używam następującej techniki: zamieniam wszytskie pierwsze zera na jedynki a póznej zliczam te jedynki 
  */
 
-addsb:
+clz:
         movq    %rdi,%r8                        /* wykozystując metode dziel i zwycieżaj ustawiam wszystki pozostałe bity po pierwszej 1 na 1 przesuwając o kolejne potegi 2 liczbe i orując to z posiadaną uroszczoną liczbą */
         shr     $1,%r8
         or      %r8,%rdi        
@@ -45,32 +45,28 @@ addsb:
         and     %r9,%rdi
         sub     %rdi,%rax
         movq    %rax,%rdi
-        movq    $0x3333333333333333,%r9
+        movq    $0x3333333333333333,%r9         /* ten krok jest taki sam z normalnym popcountem */
         shr     $2,%rdi
         and     %r9,%rax
         and     %r9,%rdi
         add     %rax,%rdi
         movq    %rdi,%rax
-        movq    $0x0f0f0f0f0f0f0f0f,%r9
+        movq    $0x0f0f0f0f0f0f0f0f,%r9         /* kozystamy z tego że nie wystąpi nam zaden overflow w tych 4 bo z 4 bitów max wartość to 4 czyli 0100 */
         shr     $4,%rdi
         add     %rax,%rdi
         and     %r9,%rdi
-        movq    %rdi,%rax
-        movq    $0x00ff00ff00ff00ff,%r9
+        movq    %rdi,%rax                       /* później poprostu dodajemy te wartości pokopli i na samym koncu wyciagamy tylko te bity któe nas interesuja */
         shr     $8,%rdi
         add     %rax,%rdi
-        and     %r9,%rdi
         movq    %rdi,%rax
-        movq    $0x0000ffff0000ffff,%r9
         shr     $16,%rax
         add     %rax,%rdi
-        and     %r9,%rdi
         movq    %rdi,%rax
-        movq    $0x00000000ffffffff,%r9
         shr     $32,%rax
+        add     %rdi,%rax
+        movq    $0x7f,%r9
         and     %r9,%rax
-
         ret
 
-
         .size   clz, .-clz
+        
