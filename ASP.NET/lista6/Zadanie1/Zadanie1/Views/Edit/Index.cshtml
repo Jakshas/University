@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<form id="addForm" method="post">
+    <input type="hidden" name="id" id="id" value=@Request.QueryString[0] />
+    Imie: @Html.TextBox("Imie")
+    Nazwisko: @Html.TextBox("Nazwisko")
+    Wiek: @Html.TextBox("Wiek")<br />
+    <input type="submit" id="submitButton" value="Edytuj" />
+    @Html.ActionLink("Wróć", "Index", "Home");
+</form>

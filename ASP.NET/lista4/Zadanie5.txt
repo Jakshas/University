@@ -1,0 +1,4 @@
+Nauczylem się kozystać z tej biblioteki. Przeanalizowałem kod podany do wykładu jak i 
+sam wykłąd przesłuchalem z uwagą. Przeczytałem też sporą część notatki z bloga google który był podany w 
+zadaniu o tym jak się tego urzywa. Drugiej notatki nie czytalem poniewaz stwierdziłem że bedą znajdowac sie 
+w niej podobne wytłumaczenie jak na wykłądzie.

@@ -55,7 +55,6 @@ int main(int argc, char *argv[]) {
 
     /* TODO: Attach new buffer to stdout stream. */
     buf = malloc(size);
-    // zmiana bufera i jego trybu w strumieniu wyjścia
     setvbuf(stdout, buf, mode, size);
 
     for (int j = 0; j < times; j++)

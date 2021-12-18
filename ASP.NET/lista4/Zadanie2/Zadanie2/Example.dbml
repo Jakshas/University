@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ASPL4Z2" Class="ExampleDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=ASPL4Z2;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ASPL4Z2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[USER]" Member="USER">
+    <Type Name="USER">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="USER_PASSWORD" Member="PASSWORD" ThisKey="ID" OtherKey="ID" Type="PASSWORD" Cardinality="One" />
+      <Association Name="USER_USERSROLES" Member="USERSROLES" ThisKey="ID" OtherKey="user" Type="USERSROLES" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PASSWORD" Member="PASSWORD">
+    <Type Name="PASSWORD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="skrot" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sol" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="liczba" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Association Name="USER_PASSWORD" Member="USER" ThisKey="ID" OtherKey="ID" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USERSROLES" Member="USERSROLES">
+    <Type Name="USERSROLES">
+      <Column Name="id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="role" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="[user]" Member="user" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="USER_USERSROLES" Member="USER1" ThisKey="user" OtherKey="ID" Type="USER" IsForeignKey="true" />
+      <Association Name="ROLES_USERSROLES" Member="ROLES" ThisKey="role" OtherKey="ID" Type="ROLES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ROLES" Member="ROLES">
+    <Type Name="ROLES">
+      <Column Name="ID" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="rola" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="ROLES_USERSROLES" Member="USERSROLES" ThisKey="ID" OtherKey="role" Type="USERSROLES" />
+    </Type>
+  </Table>
+</Database>

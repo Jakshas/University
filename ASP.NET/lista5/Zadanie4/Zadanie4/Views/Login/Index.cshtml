@@ -1,0 +1,12 @@
+﻿@model Zadanie4.Models.User
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<form name="loginForm" method="post">
+    Login: @Html.TextBoxFor(m => m.login) <br />
+    Password: @Html.PasswordFor(m => m.haslo) <br />
+    <input type="submit" name="submit" />
+</form>

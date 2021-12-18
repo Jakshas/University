@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Dodaj";
+}
+
+<form id="addForm" method="post">
+    Imie: @Html.TextBox("Imie")
+    Nazwisko: @Html.TextBox("Nazwisko")
+    Wiek: @Html.TextBox("Wiek")<br/>
+    <input type="submit" id="submitButton" value="Dodaj" />
+    @Html.ActionLink("Wróć", "Index", "Home");
+</form>

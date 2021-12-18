@@ -1,0 +1,41 @@
+﻿@using Zadanie3.Models
+@model Student
+
+@{
+    ViewBag.Title = "Index";
+}
+@using (Html.BeginForm("Upload", "Upload", FormMethod.Post,
+                                      new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        Plik <input type="file" name="file" />
+        <input type="submit" value="Wyślij" />
+    </fieldset>
+}
+
+<h2>Index</h2>
+
+<div>
+    @Html.DropDownListFor(m => m.plec, new SelectList(Enum.GetValues((typeof(Plec)))), "Your Gender")
+    <br />
+    @Html.Password("Haslo")
+    <br />
+    @Html.TextArea("TextArea", "Informacje o studencie", 30, 70, new { })
+    <br />
+    1: @Html.CheckBox("1", true)
+    <br />
+    2: @Html.CheckBox("2", false)
+    <br />
+    @Html.ActionLink("Przejdz do innego widoku", "Widok")
+    <br />
+    @Html.TextBoxFor(m => m.rok)
+    <br />
+    Czy przedmiot został zaliczony @Html.RadioButtonFor(m => m.czy_zaliczyl_przedmiot, "czy_zaliczyl_przedmiot", false)
+    <br />
+    @Html.Encode("1\n2\n").Replace("\n", "<br />")
+    <br />
+    @Html.Raw(Html.Encode("1\n2\n").Replace("\n", "<br />"))
+    <br />
+
+</div>
