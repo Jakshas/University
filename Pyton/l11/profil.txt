@@ -1,0 +1,13 @@
+         10004 function calls in 0.123 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.122    0.122 :0(exec)
+        1    0.001    0.001    0.001    0.001 :0(setprofile)
+        1    0.000    0.000    0.123    0.123 profile:0(<code object <module> at 0x7f14e09cf870, file "z1.py", line 1>)
+        0    0.000             0.000          profile:0(profiler)
+        1    0.017    0.017    0.122    0.122 z1.py:1(<module>)
+    10000    0.105    0.000    0.105    0.000 z1.py:1(pierwiastek)
+
+

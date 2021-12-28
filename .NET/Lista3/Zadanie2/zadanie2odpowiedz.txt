@@ -1,0 +1,1 @@
+Where i OrderBy różnią się od where i orderby tym ze te z pierwsze przyjmują całe funkcje podczas gdy te drugie przyjmuja jedynie wyrażenia

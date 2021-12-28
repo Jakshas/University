@@ -1,0 +1,7 @@
+C:\Projekty\University\.NET\Lista9\Zadanie6\Zadanie6\bin\Debug\Zadanie6.exe.config
+C:\Projekty\University\.NET\Lista9\Zadanie6\Zadanie6\bin\Debug\Zadanie6.exe
+C:\Projekty\University\.NET\Lista9\Zadanie6\Zadanie6\bin\Debug\Zadanie6.pdb
+C:\Projekty\University\.NET\Lista9\Zadanie6\Zadanie6\obj\Debug\Zadanie6.csproj.AssemblyReference.cache
+C:\Projekty\University\.NET\Lista9\Zadanie6\Zadanie6\obj\Debug\Zadanie6.csproj.CoreCompileInputs.cache
+C:\Projekty\University\.NET\Lista9\Zadanie6\Zadanie6\obj\Debug\Zadanie6.exe
+C:\Projekty\University\.NET\Lista9\Zadanie6\Zadanie6\obj\Debug\Zadanie6.pdb

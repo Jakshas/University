@@ -1,0 +1,13 @@
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\bin\Debug\netcoreapp3.1\Zadanie5.exe
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\bin\Debug\netcoreapp3.1\Zadanie5.deps.json
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\bin\Debug\netcoreapp3.1\Zadanie5.runtimeconfig.json
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\bin\Debug\netcoreapp3.1\Zadanie5.runtimeconfig.dev.json
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\bin\Debug\netcoreapp3.1\Zadanie5.dll
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\bin\Debug\netcoreapp3.1\Zadanie5.pdb
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\obj\Debug\netcoreapp3.1\Zadanie5.csprojAssemblyReference.cache
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\obj\Debug\netcoreapp3.1\Zadanie5.AssemblyInfoInputs.cache
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\obj\Debug\netcoreapp3.1\Zadanie5.AssemblyInfo.cs
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\obj\Debug\netcoreapp3.1\Zadanie5.csproj.CoreCompileInputs.cache
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\obj\Debug\netcoreapp3.1\Zadanie5.dll
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\obj\Debug\netcoreapp3.1\Zadanie5.pdb
+C:\Projekty\University\.NET\Lista3\Zadanie5\Zadanie5\obj\Debug\netcoreapp3.1\Zadanie5.genruntimeconfig.cache
