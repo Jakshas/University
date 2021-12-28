@@ -1,0 +1,2 @@
+Zaznaczona na zdieciu opcja pozwala definiować filtry. Jesli się nie mapuje rozszezenia to podczas żądania
+zasobu strona zwróci błąd 404.3 Not Found

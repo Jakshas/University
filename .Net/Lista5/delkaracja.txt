@@ -1,0 +1,7 @@
+2.1
+	Zadanie 1 - 1
+	Zadanie 2 - 1
+	Zadanie 3 - 2
+	Zadanie 5 - 2
+	Zadanie 6 - 1
+	Zadanie 7 - 1 	nie wiem czy do końca o to chodziło bo w moim rozwiazaniu w kazdym przypadku pętla się blokuje

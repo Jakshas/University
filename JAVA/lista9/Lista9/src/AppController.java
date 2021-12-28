@@ -10,7 +10,11 @@ import javafx.scene.control.TextField;
 public class AppController {
 
     BigInteger poprzednia = new BigInteger("0");
+<<<<<<< HEAD
     BigInteger zmienna = new BigInteger("0");;
+=======
+    BigInteger zmienna = new BigInteger("0");
+>>>>>>> 17217ae776ba9628dbc9594a72934a138d91aa54
     BigInteger systemliczb = new BigInteger("10");
     @FXML
     private Button i4;

@@ -1,0 +1,12 @@
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\bin\Debug\netcoreapp3.1\Zadanie10.exe
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\bin\Debug\netcoreapp3.1\Zadanie10.deps.json
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\bin\Debug\netcoreapp3.1\Zadanie10.runtimeconfig.json
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\bin\Debug\netcoreapp3.1\Zadanie10.runtimeconfig.dev.json
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\bin\Debug\netcoreapp3.1\Zadanie10.dll
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\bin\Debug\netcoreapp3.1\Zadanie10.pdb
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\obj\Debug\netcoreapp3.1\Zadanie10.AssemblyInfoInputs.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\obj\Debug\netcoreapp3.1\Zadanie10.AssemblyInfo.cs
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\obj\Debug\netcoreapp3.1\Zadanie10.csproj.CoreCompileInputs.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\obj\Debug\netcoreapp3.1\Zadanie10.dll
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\obj\Debug\netcoreapp3.1\Zadanie10.pdb
+C:\Projekty\University\dotNet\Lista7\Zadanie10\Zadanie10\obj\Debug\netcoreapp3.1\Zadanie10.genruntimeconfig.cache

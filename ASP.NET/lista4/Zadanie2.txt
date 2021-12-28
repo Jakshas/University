@@ -1,0 +1,7 @@
+a) w przypadku wycieku danych wszystkie hasła sa dostępne i czytelne
+b)
+c) soli doddaje sie by urozmaicic wydłuzyc hasła bez zmuszania uzytkownika do podawania dłuzszych lub 
+bardziej skomplikownych haseł
+d) by utrudnic przy wycieku polaczenie uzytkownika z hasłem
+e) ograniczenie liczby nieudanych logowan i wprowadzanie czasu jaki trzeba odczekac
+f) można wysłac mu link do zresetowania hasła na mail podpiety do konta

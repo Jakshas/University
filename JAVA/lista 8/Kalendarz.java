@@ -17,7 +17,10 @@ public class Kalendarz extends AbstractListModel {
         rok=r;
         miesiac=m;
         fireContentsChanged(this, 0, getSize());
+<<<<<<< HEAD
 
+=======
+>>>>>>> 17217ae776ba9628dbc9594a72934a138d91aa54
     }
 
     @Override

@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.10874' (creator: callgrind-3.15.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 10389341467
+Trigger: Program termination
+Profiled target:  ./forksort (PID 10874, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir             
+--------------------------------------------------------------------------------
+28,693,252,110  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir              file:function
+--------------------------------------------------------------------------------
+15,927,815,255  forksort.c:Partition [/mnt/c/Projekty/University/SO/Lista7/so21_lista_7/forksort]
+ 3,689,041,747  forksort.c:InsertionSort [/mnt/c/Projekty/University/SO/Lista7/so21_lista_7/forksort]
+ 2,706,921,816  forksort.c:SwapElem [/mnt/c/Projekty/University/SO/Lista7/so21_lista_7/forksort]
+ 2,266,325,236  /build/glibc-eX1tMB/glibc-2.31/stdlib/random_r.c:random_r [/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+ 1,493,297,295  /build/glibc-eX1tMB/glibc-2.31/stdlib/random.c:random [/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+ 1,006,633,007  forksort.c:main [/mnt/c/Projekty/University/SO/Lista7/so21_lista_7/forksort]
+   844,199,031  /build/glibc-eX1tMB/glibc-2.31/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:__memcpy_avx_unaligned_erms [/usr/lib/x86_64-linux-gnu/libc-2.31.so]
+   256,691,794  forksort.c:QuickSort'2 [/mnt/c/Projekty/University/SO/Lista7/so21_lista_7/forksort]
+   142,218,790  /build/glibc-eX1tMB/glibc-2.31/stdlib/../sysdeps/unix/sysv/linux/x86/lowlevellock.h:random
+   142,218,790  ???:0x0000000000109190 [???]
+

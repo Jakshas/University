@@ -13,9 +13,9 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
+            "console": "externalTerminal",
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\Program Files (x86)\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Włącz formatowanie kodu dla gdb",

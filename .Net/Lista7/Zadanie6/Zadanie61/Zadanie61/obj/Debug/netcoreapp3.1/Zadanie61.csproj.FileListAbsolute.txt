@@ -1,0 +1,16 @@
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\Zadanie61.exe
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\Zadanie61.deps.json
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\Zadanie61.runtimeconfig.json
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\Zadanie61.runtimeconfig.dev.json
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\Zadanie61.dll
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\Zadanie61.pdb
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.csprojAssemblyReference.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.AssemblyInfoInputs.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.AssemblyInfo.cs
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.csproj.CoreCompileInputs.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.dll
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.pdb
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.genruntimeconfig.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
+C:\Projekty\University\dotNet\Lista7\Zadanie6\Zadanie61\Zadanie61\obj\Debug\netcoreapp3.1\Zadanie61.csproj.CopyComplete

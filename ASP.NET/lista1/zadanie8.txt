@@ -1,0 +1,7 @@
+Torżsamośc w ustawieniach zaawansowanych puli aplikacji. 
+Udało mi sie pomyślnie wykonać eksperyment. Wykozystalem dwie witryny w foldreach Zadanie8 i Zadanie81
+i plik zadanie8pom.
+Złą praktyka jest ustawnianie puli aplikacji na LocalSystem ponieważ zwiększa to szanse na atak na server
+dajac dostęp do tylko tego jednego pliku mamy pewnoc ze jesli ktos przejmie kontrole nad serverem 
+nie wyrzadzi szkód w innych plikach bo nie ma do nich dostepu. Z LocalSystem ma atakujacy dostep do kazdego 
+pliku

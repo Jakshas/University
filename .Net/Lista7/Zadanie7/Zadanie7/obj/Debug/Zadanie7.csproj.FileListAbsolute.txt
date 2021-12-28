@@ -1,0 +1,7 @@
+C:\Projekty\University\dotNet\Lista7\Zadanie7\Zadanie7\bin\Debug\Zadanie7.exe.config
+C:\Projekty\University\dotNet\Lista7\Zadanie7\Zadanie7\bin\Debug\Zadanie7.exe
+C:\Projekty\University\dotNet\Lista7\Zadanie7\Zadanie7\bin\Debug\Zadanie7.pdb
+C:\Projekty\University\dotNet\Lista7\Zadanie7\Zadanie7\obj\Debug\Zadanie7.csprojAssemblyReference.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie7\Zadanie7\obj\Debug\Zadanie7.csproj.CoreCompileInputs.cache
+C:\Projekty\University\dotNet\Lista7\Zadanie7\Zadanie7\obj\Debug\Zadanie7.exe
+C:\Projekty\University\dotNet\Lista7\Zadanie7\Zadanie7\obj\Debug\Zadanie7.pdb

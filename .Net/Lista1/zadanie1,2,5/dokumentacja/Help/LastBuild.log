@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\dokumentacja.shfbproj" started="07.03.2021 20:38:51">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2020.3.6.0
+Copyright &#169; 2006-2020, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\zadanie1,2,5\bin\Debug\netcoreapp3.1\zadanie1,2,5.dll
+    Found assembly &#39;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\zadanie1,2,5\bin\Debug\netcoreapp3.1\zadanie1,2,5.dll&#39;
+Source: C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\zadanie1,2,5\bin\Debug\netcoreapp3.1\zadanie1,2,5.xml
+
+Copying XML comments files
+    C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\zadanie1,2,5\bin\Debug\netcoreapp3.1\zadanie1,2,5.xml -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\zadanie1,2,5.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Angielski (Stany Zjednoczone))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0110
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Kompilacja rozpocz&#169;a si&#169; 07.03.2021 20:38:52.
+Projekt &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\GenerateRefInfo.proj&quot; w w&#169;&#171;le 1 (domylne elementy docelowe).
+PrepareForBuild:
+  Tworzenie katalogu &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  Brak sugerowanych przekierowa&#228; powiĄza&#228; z ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by zadanie1,2,5 [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\GenerateRefInfo.proj]
+  Wrote information on 2 namespaces, 5 types, and 11 members
+  Kopiowanie pliku z &quot;reflection.org&quot; do &quot;reflection.all&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Kompilowanie projektu &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\GenerateRefInfo.proj&quot; wykonane (domylne elementy docelowe).
+    Last step completed in 00:00:01,4940
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
+Kompilacja rozpocz&#169;a si&#169; 07.03.2021 20:38:54.
+Projekt &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\TransformManifest.proj&quot; w w&#169;&#171;le 1 (domylne elementy docelowe).
+TransformManifest:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Kopiowanie pliku z &quot;reflection.xml&quot; do &quot;reflection.nofilenames&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Kompilowanie projektu &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\TransformManifest.proj&quot; wykonane (domylne elementy docelowe).
+    Last step completed in 00:00:01,0088
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0160
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Kompilacja rozpocz&#169;a si&#169; 07.03.2021 20:38:55.
+Projekt &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\GenerateIntermediateTOC.proj&quot; w w&#169;&#171;le 1 (domylne elementy docelowe).
+GenerateIntermediateTOC:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Kompilowanie projektu &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\GenerateIntermediateTOC.proj&quot; wykonane (domylne elementy docelowe).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,7595
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,3386
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0209
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
+Kompilacja rozpocz&#169;a si&#169; 07.03.2021 20:38:56.
+Projekt &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj&quot; w w&#169;&#171;le 1 (domylne elementy docelowe).
+BuildTopics:
+  BuildAssembler (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\Jakub\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:] Missing &lt;summary&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:&lt;Module&gt;] Missing &lt;summary&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:zadanie1_2_5] Missing &lt;summary&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:zadanie1_2_5.Program] Missing &lt;summary&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:zadanie1_2_5.Program.Main(System.String[])] Missing &lt;summary&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:zadanie1_2_5.Program.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:zadanie1_2_5.Zadanie2.Grid.Item(System.Int32)] Member ID URL not found for target &#39;!:System.Int32[]&#39;. [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:zadanie1_2_5.Zadanie2.Grid.Item(System.Int32)] Invalid reference link target &#39;!:System.Int32[]&#39;. [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:zadanie1_2_5.Zadanie2.Grid.szerokosc] Missing &lt;summary&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:zadanie1_2_5.Zadanie2.Grid.wysokosc] Missing &lt;summary&gt; documentation [C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj]
+  Processed 25 topic(s)
+  10 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+  ResolveReferenceLinksComponent: 11 entries added to the member ID URL cache.  New cache size: 11 entries
+Kompilowanie projektu &quot;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\BuildTopics.proj&quot; wykonane (domylne elementy docelowe).
+    Last step completed in 00:00:06,4803
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1
+Processed 25 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Documentation.hhc
+    Last step completed in 00:00:00,5121
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,4059
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+SHFB: Warning BE0060: The file path &#39;C:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\&#39; contains a comma or &#39;.h&#39; which may cause the Help 1 compiler to fail.
+    Last step completed in 00:00:00,0070
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 0 seconds
+  
+  27	Topics
+  
+  216	Local links
+  
+  0	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Projekty\University\dotNet\Lista1\zadanie1,2,5\dokumentacja\Help\Working\Output\HtmlHelp1\Documentation.chm, 76,769 bytes
+  
+  Compression decreased file by 189,190 bytes.
+  
+    Last step completed in 00:00:01,2911
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0100
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 07.03.2021 20:39:04.  Total time: 00:00:12,8848
+
+</buildStep>
+</shfbBuild>

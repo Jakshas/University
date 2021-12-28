@@ -1,0 +1,30 @@
+﻿@model Zadanie1.Models.GridMOdel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@Html.ActionLink("Dodaj", "Index", "Add")
+<br />
+@{
+    var grid = new WebGrid(canPage: true, rowsPerPage: 10);
+    grid.Bind(source: Model.Students.Items, rowCount: Model.Students.TotalCount, autoSortAndPage: false);
+}
+
+<div>
+    @grid.Table(
+            columns: grid.Columns(
+                grid.Column("ID", "ID"),
+                grid.Column("Imie", "Imie"),
+                grid.Column("Nazwisko", "Nazwisko"),
+                grid.Column("Wiek", "Wiek"),
+                grid.Column(format:
+                    item =>
+                        Html.ActionLink("Edycja", "Index", "Edit", new { ID = item.ID, no = item.ID },
+                        new { ID = item.ID }), canSort: false)
+            )
+        )
+</div>
+<div>
+    @grid.Pager(WebGridPagerModes.All, "<<", "<", ">", ">>")
+</div>

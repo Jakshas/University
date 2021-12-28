@@ -1,0 +1,4 @@
+﻿  Źródło.cpp
+C:\Projekty\University\.Net\Lista10\Zadanie2\Zadanie2\Źródło.cpp(62,14): warning C4101: "ps": lokalna zmienna, do której nie istnieje odwołanie
+C:\Projekty\University\.Net\Lista10\Zadanie2\Zadanie2\Źródło.cpp(61,6): warning C4101: "i": lokalna zmienna, do której nie istnieje odwołanie
+  Zadanie2.vcxproj -> C:\Projekty\University\.Net\Lista10\Zadanie2\Debug\Zadanie2.exe

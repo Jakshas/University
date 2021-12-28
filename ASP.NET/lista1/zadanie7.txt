@@ -1,0 +1,4 @@
+tagi jakie odpowiadaja to <input name="ctl03" type="text"> 
+i <input type="submit" name="ctl04" value=""> 
+mozna to podejzec klawiszem f12 i inspektorem
+jezeli uzyje sie funkcji publikacji do folderu

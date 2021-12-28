@@ -11,7 +11,10 @@ public class Kreslarz implements ListCellRenderer {
     
     protected DefaultListCellRenderer defaultRenderer = new DefaultListCellRenderer();
 
+<<<<<<< HEAD
     
+=======
+>>>>>>> 17217ae776ba9628dbc9594a72934a138d91aa54
     @Override
     public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected,
             boolean cellHasFocus) {

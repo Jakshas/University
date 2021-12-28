@@ -1,0 +1,4 @@
+Thread ma problem z komunikowaniem się z elementami interfejsu przez to,
+że dzialaja one w innym wątku. BackgroundWorker działa wolniej ale nie stwarza takich problemów przy 
+komunikacji z elementami interfejsu. Dzialajacy Thread i BackgroundWorker mocno się nie lubią i 
+psują interfejs.

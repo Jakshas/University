@@ -83,7 +83,11 @@ public class Okno {
 
         wypiszrok(); 
         pmiesiac=wypiszlist(pmiesiac, setmies);
+<<<<<<< HEAD
         tp.add("rok",prok);  
+=======
+        tp.add("rok",prok);
+>>>>>>> 17217ae776ba9628dbc9594a72934a138d91aa54
         tp.add("miesiac",pmiesiac);  
         frame.setVisible(true);  
     }

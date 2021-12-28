@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Strony">
+  <DataContextMoniker Name="/StronyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="92b842c5-2599-4d3d-8e36-68ee66a3e779" absoluteBounds="5.25, 2.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/StronyDataContext/Strony" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59f2d063-afda-45a2-a2c9-bfe284bf1252" absoluteBounds="5.265, 3.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,13 @@
+.buttonnum{
+    -fx-background-color: lightblue;
+    -fx-border-color: black ;
+    -fx-border-width: 1 ; 
+    -fx-border-style:solid ;
+}
+
+.buttonop{
+    -fx-background-color: rgb(0, 153, 255);
+    -fx-border-color: black ;
+    -fx-border-width: 1 ; 
+    -fx-border-style:solid ;
+}

@@ -1,0 +1,461 @@
+2490  execve("/usr/bin/dash", ["dash"], 0x7ffed1330b48 /* 27 vars */) = 0
+2490  arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc8919a5c0) = -1 EINVAL (Invalid argument)
+2490  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+2490  close(3)                          = 0
+2490  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+2490  close(3)                          = 0
+2490  arch_prctl(ARCH_SET_FS, 0x7ff26a129580) = 0
+2490  openat(AT_FDCWD, "/dev/tty", O_RDWR) = 3
+2490  close(3)                          = 0
+2490  wait4(-1, 0x7ffc8919a26c, WNOHANG|WSTOPPED, NULL) = -1 ECHILD (No child processes)
+2490  pipe([3, 4])                      = 0
+2490  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff26a129850) = 2537
+2490  close(4)                          = 0
+2537  close(3 <unfinished ...>
+2490  pipe( <unfinished ...>
+2537  <... close resumed>)              = 0
+2490  <... pipe resumed>[4, 5])         = 0
+2537  dup2(4, 1 <unfinished ...>
+2490  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+2537  <... dup2 resumed>)               = 1
+2490  <... clone resumed>, child_tidptr=0x7ff26a129850) = 2538
+2537  close(4)                          = 0
+2490  close(3)                          = 0
+2537  execve("/usr/bin/ps", ["ps", "-ef"], 0x55e548704900 /* 27 vars */ <unfinished ...>
+2490  close(5)                          = 0
+2537  <... execve resumed>)             = 0
+2537  arch_prctl(0x3001 /* ARCH_??? */, 0x7ffeeb4f3bd0) = -1 EINVAL (Invalid argument)
+2490  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+2537  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+2490  <... clone resumed>, child_tidptr=0x7ff26a129850) = 2539
+2490  close(4 <unfinished ...>
+2538  close(4 <unfinished ...>
+2490  <... close resumed>)              = 0
+2538  <... close resumed>)              = 0
+2490  close(-1 <unfinished ...>
+2538  dup2(3, 0 <unfinished ...>
+2490  <... close resumed>)              = -1 EBADF (Bad file descriptor)
+2537  close(3 <unfinished ...>
+2490  wait4(-1,  <unfinished ...>
+2538  <... dup2 resumed>)               = 0
+2537  <... close resumed>)              = 0
+2538  close(3 <unfinished ...>
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libprocps.so.8", O_RDONLY|O_CLOEXEC <unfinished ...>
+2538  <... close resumed>)              = 0
+2537  <... openat resumed>)             = 3
+2538  dup2(5, 1)                        = 1
+2539  dup2(4, 0 <unfinished ...>
+2538  close(5 <unfinished ...>
+2539  <... dup2 resumed>)               = 0
+2539  close(4 <unfinished ...>
+2538  <... close resumed>)              = 0
+2539  <... close resumed>)              = 0
+2539  openat(AT_FDCWD, "cnt", O_WRONLY|O_CREAT|O_TRUNC, 0666 <unfinished ...>
+2538  execve("/usr/bin/grep", ["grep", "sh"], 0x55e548704900 /* 27 vars */) = 0
+2538  arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc2fcc4b00) = -1 EINVAL (Invalid argument)
+2538  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2539  <... openat resumed>)             = 3
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC <unfinished ...>
+2538  close(3 <unfinished ...>
+2539  close(1 <unfinished ...>
+2537  <... openat resumed>)             = 3
+2539  <... close resumed>)              = 0
+2538  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  dup2(3, 1)                        = 1
+2538  <... openat resumed>)             = 3
+2539  close(3)                          = 0
+2539  execve("/usr/bin/wc", ["wc", "-l"], 0x55e548704918 /* 27 vars */) = 0
+2539  arch_prctl(0x3001 /* ARCH_??? */, 0x7ffce1f8b2f0) = -1 EINVAL (Invalid argument)
+2539  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+2537  close(3 <unfinished ...>
+2539  <... openat resumed>)             = 3
+2537  <... close resumed>)              = 0
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  close(3 <unfinished ...>
+2537  <... openat resumed>)             = 3
+2539  <... close resumed>)              = 0
+2538  close(3 <unfinished ...>
+2539  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+2538  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  arch_prctl(ARCH_SET_FS, 0x7fbcc7e23580) = 0
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC <unfinished ...>
+2537  <... openat resumed>)             = 3
+2539  <... openat resumed>)             = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3 <unfinished ...>
+2539  close(3 <unfinished ...>
+2538  <... close resumed>)              = 0
+2539  <... close resumed>)              = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC <unfinished ...>
+2538  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  <... openat resumed>)             = 3
+2538  <... openat resumed>)             = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  close(3)                          = 0
+2537  <... openat resumed>)             = 3
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3 <unfinished ...>
+2539  close(3 <unfinished ...>
+2538  <... close resumed>)              = 0
+2539  <... close resumed>)              = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+2538  arch_prctl(ARCH_SET_FS, 0x7f96eae71b80 <unfinished ...>
+2537  close(3 <unfinished ...>
+2538  <... arch_prctl resumed>)         = 0
+2537  <... close resumed>)              = 0
+2539  close(3 <unfinished ...>
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  <... close resumed>)              = 0
+2537  <... openat resumed>)             = 3
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/liblz4.so.1", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+2538  openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  close(3)                          = 0
+2538  <... openat resumed>)             = 3
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2539  close(3 <unfinished ...>
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  <... close resumed>)              = 0
+2537  <... openat resumed>)             = 3
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC <unfinished ...>
+2538  close(3 <unfinished ...>
+2539  <... openat resumed>)             = 3
+2538  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+2539  close(3)                          = 0
+2539  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2539  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY <unfinished ...>
+2539  openat(AT_FDCWD, "/usr/share/locale/C.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY <unfinished ...>
+2538  <... openat resumed>)             = 3
+2539  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+2537  close(3 <unfinished ...>
+2539  openat(AT_FDCWD, "/usr/share/locale/C.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  <... close resumed>)              = 0
+2539  openat(AT_FDCWD, "/usr/share/locale/C/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+2539  openat(AT_FDCWD, "/usr/share/locale-langpack/C.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  <... openat resumed>)             = 3
+2539  openat(AT_FDCWD, "/usr/share/locale-langpack/C.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2539  openat(AT_FDCWD, "/usr/share/locale-langpack/C/LC_MESSAGES/coreutils.mo", O_RDONLY <unfinished ...>
+2538  close(3 <unfinished ...>
+2539  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+2538  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3 <unfinished ...>
+2537  close(3 <unfinished ...>
+2538  <... close resumed>)              = 0
+2537  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC <unfinished ...>
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+2538  <... openat resumed>)             = 3
+2537  <... openat resumed>)             = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3 <unfinished ...>
+2537  close(3 <unfinished ...>
+2538  <... close resumed>)              = 0
+2537  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+2537  arch_prctl(ARCH_SET_FS, 0x7fa00a65c7c0 <unfinished ...>
+2538  close(3 <unfinished ...>
+2537  <... arch_prctl resumed>)         = 0
+2538  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+2538  close(3)                          = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+2537  openat(AT_FDCWD, "/proc/self/auxv", O_RDONLY <unfinished ...>
+2538  close(3 <unfinished ...>
+2537  <... openat resumed>)             = 3
+2538  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/proc/sys/kernel/osrelease", O_RDONLY <unfinished ...>
+2538  close(3 <unfinished ...>
+2537  <... openat resumed>)             = 3
+2538  <... close resumed>)              = 0
+2538  openat(AT_FDCWD, "/usr/share/locale/C.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  close(3 <unfinished ...>
+2538  openat(AT_FDCWD, "/usr/share/locale/C.utf8/LC_MESSAGES/grep.mo", O_RDONLY <unfinished ...>
+2537  <... close resumed>)              = 0
+2538  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC <unfinished ...>
+2538  openat(AT_FDCWD, "/usr/share/locale/C/LC_MESSAGES/grep.mo", O_RDONLY <unfinished ...>
+2537  <... openat resumed>)             = 3
+2538  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+2538  openat(AT_FDCWD, "/usr/share/locale-langpack/C.UTF-8/LC_MESSAGES/grep.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  close(3 <unfinished ...>
+2538  openat(AT_FDCWD, "/usr/share/locale-langpack/C.utf8/LC_MESSAGES/grep.mo", O_RDONLY <unfinished ...>
+2537  <... close resumed>)              = 0
+2538  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/proc/self/auxv", O_RDONLY <unfinished ...>
+2538  openat(AT_FDCWD, "/usr/share/locale-langpack/C/LC_MESSAGES/grep.mo", O_RDONLY <unfinished ...>
+2537  <... openat resumed>)             = 3
+2538  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/proc/self/stat", O_RDONLY) = 3
+2537  close(3)                          = 0
+2537  openat(AT_FDCWD, "/proc/uptime", O_RDONLY) = 3
+2537  openat(AT_FDCWD, "/usr/share/locale/C.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/usr/share/locale/C.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/usr/share/locale/C/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/usr/share/locale-langpack/C.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/usr/share/locale-langpack/C.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/usr/share/locale-langpack/C/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  openat(AT_FDCWD, "/proc/sys/kernel/pid_max", O_RDONLY) = 4
+2537  close(4)                          = 0
+2537  openat(AT_FDCWD, "/proc/sys/kernel/osrelease", O_RDONLY) = 4
+2537  close(4)                          = 0
+2537  openat(AT_FDCWD, "/proc/meminfo", O_RDONLY) = 4
+2537  openat(AT_FDCWD, "/proc", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+2537  openat(AT_FDCWD, "/proc/1/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  close(6)                          = 0
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1774/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1774/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1774/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1775/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1775/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1775/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1776/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1776/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1776/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/tty/drivers", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1826/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1826/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1826/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1827/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1827/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1827/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1828/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1828/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1828/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1829/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1829/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1829/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1835/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1835/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1835/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1837/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1837/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1837/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1848/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1848/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1848/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1876/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1876/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1876/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1883/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1883/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1883/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1918/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1918/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1918/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1919/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1919/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1919/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1938/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1938/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/1938/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2487/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2487/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2487/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2490/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2490/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2490/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2502/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2502/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2502/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2537/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2537/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2537/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2538/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2538/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2538/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2539/stat", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2539/status", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  openat(AT_FDCWD, "/proc/2539/cmdline", O_RDONLY) = 6
+2537  close(6)                          = 0
+2537  close(5)                          = 0
+2537  close(1)                          = 0
+2537  close(2 <unfinished ...>
+2538  close(1)                          = 0
+2538  close(2 <unfinished ...>
+2537  <... close resumed>)              = 0
+2538  <... close resumed>)              = 0
+2537  exit_group(0 <unfinished ...>
+2538  exit_group(0 <unfinished ...>
+2537  <... exit_group resumed>)         = ?
+2538  <... exit_group resumed>)         = ?
+2539  close(0 <unfinished ...>
+2537  +++ exited with 0 +++
+2490  <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WSTOPPED, NULL) = 2537
+2539  <... close resumed>)              = 0
+2538  +++ exited with 0 +++
+2490  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2537, si_uid=1000, si_status=0, si_utime=0, si_stime=4} ---
+2539  close(1 <unfinished ...>
+2490  wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WSTOPPED, NULL) = 2538
+2539  <... close resumed>)              = 0
+2490  wait4(-1,  <unfinished ...>
+2539  close(2)                          = 0
+2539  exit_group(0)                     = ?
+2539  +++ exited with 0 +++
+2490  <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WSTOPPED, NULL) = 2539
+2490  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2539, si_uid=1000, si_status=0, si_utime=0, si_stime=2} ---
+2490  wait4(-1, 0x7ffc8919a26c, WNOHANG|WSTOPPED, NULL) = -1 ECHILD (No child processes)
+2490  close(10)                         = 0
+2490  exit_group(0)                     = ?
+2490  +++ exited with 0 +++

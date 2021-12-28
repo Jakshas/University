@@ -1,0 +1,10 @@
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\bin\OAuth2Demo.dll.config
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\bin\OAuth2Demo.dll
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\bin\OAuth2Demo.pdb
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\bin\DotNetOpenAuth.dll
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\bin\DotNetOpenAuth.xml
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\obj\Debug\OAuth2Demo.csprojAssemblyReference.cache
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\obj\Debug\OAuth2Demo.csproj.CoreCompileInputs.cache
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\obj\Debug\OAuth2Demo.csproj.CopyComplete
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\obj\Debug\OAuth2Demo.dll
+C:\Projekty\University\ASP.NET\lista4\Zadanie4\OAuth2Demo\obj\Debug\OAuth2Demo.pdb

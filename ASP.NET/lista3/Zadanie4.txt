@@ -1,0 +1,4 @@
+Aplication jest statycznym kontenerem dla całej aplikacji
+Session jest dla pojedynczego urzytkownika
+Items jest na pojedynczy request
+dodatkowo chronione powinny być Aplication bo do aplikacji moga dwa razy stworyc ten sam obiekt

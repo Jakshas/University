@@ -33,117 +33,117 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button fx:id="i4" mnemonicParsing="false" onAction="#click4" prefHeight="108.0" prefWidth="125.0" text="4" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <Button fx:id="i4" mnemonicParsing="false" onAction="#click4" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="4" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i7" mnemonicParsing="false" onAction="#click7" prefHeight="108.0" prefWidth="125.0" text="7" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <Button fx:id="i7" mnemonicParsing="false" onAction="#click7" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="7" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i8" mnemonicParsing="false" onAction="#click8" prefHeight="108.0" prefWidth="125.0" text="8" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <Button fx:id="i8" mnemonicParsing="false" onAction="#click8" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="8" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i9" mnemonicParsing="false" onAction="#click9" prefHeight="108.0" prefWidth="125.0" text="9" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <Button fx:id="i9" mnemonicParsing="false" onAction="#click9" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="9" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i5" mnemonicParsing="false" onAction="#click5" prefHeight="108.0" prefWidth="125.0" text="5" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                  <Button fx:id="i5" mnemonicParsing="false" onAction="#click5" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="5" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i6" mnemonicParsing="false" onAction="#click6" prefHeight="108.0" prefWidth="125.0" text="6" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <Button fx:id="i6" mnemonicParsing="false" onAction="#click6" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="6" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i1" mnemonicParsing="false" onAction="#click1" prefHeight="108.0" prefWidth="125.0" text="1" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <Button fx:id="i1" mnemonicParsing="false" onAction="#click1" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="1" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i2" mnemonicParsing="false" onAction="#click2" prefHeight="108.0" prefWidth="125.0" text="2" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                  <Button fx:id="i2" mnemonicParsing="false" onAction="#click2" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="2" GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i3" mnemonicParsing="false" onAction="#click3" prefHeight="108.0" prefWidth="125.0" text="3" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                  <Button fx:id="i3" mnemonicParsing="false" onAction="#click3" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="3" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="i0" mnemonicParsing="false" onAction="#click0" prefHeight="108.0" prefWidth="125.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                  <Button fx:id="i0" mnemonicParsing="false" onAction="#click0" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="0" GridPane.columnIndex="2" GridPane.rowIndex="6">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="zmiensnak" mnemonicParsing="false" onAction="#clickzmiensnak" prefHeight="108.0" prefWidth="125.0" text="-/+" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                  <Button fx:id="zmiensnak" mnemonicParsing="false" onAction="#clickzmiensnak" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="-/+" GridPane.columnIndex="1" GridPane.rowIndex="6">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="modulo" mnemonicParsing="false" onAction="#clickmodulo" prefHeight="108.0" prefWidth="125.0" text="\%" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                  <Button fx:id="modulo" mnemonicParsing="false" onAction="#clickmodulo" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="\%" GridPane.columnIndex="3" GridPane.rowIndex="6">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="A" disable="true" mnemonicParsing="false" onAction="#clickA" prefHeight="108.0" prefWidth="125.0" text="A" GridPane.rowIndex="1">
+                  <Button fx:id="A" disable="true" mnemonicParsing="false" onAction="#clickA" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="A" GridPane.rowIndex="1">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="C" disable="true" mnemonicParsing="false" onAction="#clickC" prefHeight="108.0" prefWidth="125.0" text="C" GridPane.rowIndex="3">
+                  <Button fx:id="C" disable="true" mnemonicParsing="false" onAction="#clickC" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="C" GridPane.rowIndex="3">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="D" disable="true" mnemonicParsing="false" onAction="#clickD" prefHeight="108.0" prefWidth="125.0" text="D" GridPane.rowIndex="4">
+                  <Button fx:id="D" disable="true" mnemonicParsing="false" onAction="#clickD" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="D" GridPane.rowIndex="4">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="B" disable="true" mnemonicParsing="false" onAction="#clickB" prefHeight="108.0" prefWidth="125.0" text="B" GridPane.rowIndex="2">
+                  <Button fx:id="B" disable="true" mnemonicParsing="false" onAction="#clickB" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="B" GridPane.rowIndex="2">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="E" disable="true" mnemonicParsing="false" onAction="#clickE" prefHeight="108.0" prefWidth="125.0" text="E" GridPane.rowIndex="5">
+                  <Button fx:id="E" disable="true" mnemonicParsing="false" onAction="#clickE" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="E" GridPane.rowIndex="5">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="F" disable="true" mnemonicParsing="false" onAction="#clickF" prefHeight="108.0" prefWidth="125.0" text="F" GridPane.rowIndex="6">
+                  <Button fx:id="F" disable="true" mnemonicParsing="false" onAction="#clickF" prefHeight="108.0" prefWidth="125.0" styleClass="buttonnum" stylesheets="@style.css" text="F" GridPane.rowIndex="6">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="rownasie" mnemonicParsing="false" onAction="#clickrownasie" prefHeight="108.0" prefWidth="125.0" text="=" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                  <Button fx:id="rownasie" mnemonicParsing="false" onAction="#clickrownasie" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="=" GridPane.columnIndex="4" GridPane.rowIndex="6">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="dziel" mnemonicParsing="false" onAction="#clickdziel" prefHeight="108.0" prefWidth="125.0" text="/" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                  <Button fx:id="dziel" mnemonicParsing="false" onAction="#clickdziel" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="/" GridPane.columnIndex="4" GridPane.rowIndex="5">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="mnoz" mnemonicParsing="false" onAction="#clickmnoz" prefHeight="108.0" prefWidth="125.0" text="*" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                  <Button fx:id="mnoz" mnemonicParsing="false" onAction="#clickmnoz" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="*" GridPane.columnIndex="4" GridPane.rowIndex="4">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="odejmij" mnemonicParsing="false" onAction="#clickodejmij" prefHeight="108.0" prefWidth="125.0" text="-" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                  <Button fx:id="odejmij" mnemonicParsing="false" onAction="#clickodejmij" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="-" GridPane.columnIndex="4" GridPane.rowIndex="3">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="dodaj" mnemonicParsing="false" onAction="#clickdodaj" prefHeight="108.0" prefWidth="125.0" text="+" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                  <Button fx:id="dodaj" mnemonicParsing="false" onAction="#clickdodaj" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="+" GridPane.columnIndex="4" GridPane.rowIndex="2">
                      <font>
                         <Font size="36.0" />
                      </font>
@@ -168,22 +168,22 @@
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="usun" mnemonicParsing="false" onAction="#clickusun" prefHeight="108.0" prefWidth="125.0" text="C" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button fx:id="usun" mnemonicParsing="false" onAction="#clickusun" prefHeight="108.0" prefWidth="125.0" stylesheets="@style.css" text="C" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="silnia" mnemonicParsing="false" onAction="#clicksilnia" prefHeight="108.0" prefWidth="125.0" text="!" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Button fx:id="silnia" mnemonicParsing="false" onAction="#clicksilnia" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="!" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="newton" mnemonicParsing="false" onAction="#clicknewton" prefHeight="108.0" prefWidth="125.0" text="N" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Button fx:id="newton" mnemonicParsing="false" onAction="#clicknewton" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="N" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font size="36.0" />
                      </font>
                   </Button>
-                  <Button fx:id="pow" mnemonicParsing="false" onAction="#clickpow" prefHeight="108.0" prefWidth="125.0" text="^" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <Button fx:id="pow" mnemonicParsing="false" onAction="#clickpow" prefHeight="108.0" prefWidth="125.0" styleClass="buttonop" stylesheets="@style.css" text="^" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font size="36.0" />
                      </font>

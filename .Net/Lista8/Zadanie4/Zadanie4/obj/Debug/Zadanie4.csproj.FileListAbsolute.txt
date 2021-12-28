@@ -1,0 +1,12 @@
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\bin\Debug\Zadanie4.exe.config
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\bin\Debug\Zadanie4.exe
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\bin\Debug\Zadanie4.pdb
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\bin\Debug\EntityFramework.dll
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\bin\Debug\EntityFramework.xml
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\obj\Debug\Zadanie4.csprojAssemblyReference.cache
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\obj\Debug\Zadanie4.csproj.CoreCompileInputs.cache
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\obj\Debug\Zadanie4.csproj.CopyComplete
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\obj\Debug\Zadanie4.exe
+C:\Projekty\University\dotNet\Lista8\Zadanie4\Zadanie4\obj\Debug\Zadanie4.pdb

@@ -1,0 +1,11 @@
+a) hyperlink przegladarka wysyla żadanie get na podana strone przypina sie go do textu albo obrazka 
+uzytkownik panuje nad nawigacja nie przekauzje info o stronie chyba ze query string
+
+b) Post jest wywoływany gdy nacisnie sie odpowiedni przycisk wysyła dane z strony na nową 
+urzytkownik zarżadza do jakiejkolwiek strony 
+
+c) Redirect przekazuje request do nowego urla przekazuje querystring programista ma właze nad nawigacją
+uzywa sesji do przekazywania danych
+
+d) Transfer kończy wykonanie aktualnej strony i aczyna wykonywać nową tylko strony z tej samej aplikacji 
+pozwala odczytywać dane z strony nie podaje info o wczesniejszejs stronie cofanie moze nie działąc
