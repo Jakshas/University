@@ -1,0 +1,39 @@
+uzylem:
+https://arch.ug.edu.pl/pl/administracja/_upload/komunikaty/12151/files/Zalacznik_nr_2_do_SIWZ__Opis_przedmiotu_zamowienia.pdf
+
+F:
+1 Lokalizacja SYSTEM musi posiadać polskie interfejsy użytkownika, w przypadku interfejsów
+administracyjnych i do komponentów środowiska dopuszczalne są interfejsy w języku
+angielskim. 
+2 Autentykacja SYSTEM musi umożliwiać integrację logowania do SYSTEMU z bazą LDAP
+3 Lokalizacja  SYSTEM powinien posiadać pomoc kontekstową w języku polskim, a w innym przypadku
+powinna być dostępna instrukcja użytkownika w języku polskim.
+U:
+4 Consistency SYSTEM musi być zintegrowany. Opracowane i wdrożone moduły muszą stanowić
+logiczną całość skonstruowaną tak, aby informacje wprowadzone w którymkolwiek z
+modułów były dostępne dla posiadających odpowiednie uprawnienia użytkowników w
+innych modułach
+5 Aesthetics SYSTEM powinien umożliwiać definiowanie własnych widoków przez użytkownika bez
+ingerencji programistycznej (zmiana kolejności kolumn, wyświetlania kolumn, sortowania
+danych, itp.)
+R: 
+6 Error Menagment W przypadku stwierdzenia bądź ujawnienia Wady, Wykonawca usunie tę Wadę zgodnie z
+zasadami SLA (Service Level Agreement) zawartymi w poniższej Tabeli:
+P: 
+7 SYSTEM musi zachować taką samą stabilność i wydajność pracy niezależnie od wzrostu
+liczby użytkowników
+S: 
+8 SYSTEM musi posiadać specyfikację interfejsu API umożliwiającego rozbudowę
+SYSTEMU o kolejne komponenty przez różnych dostawców, w tym przez Zamawiającego
+
+SMART
+1 S nie ma powodów i nie odpowiada na pytanie M podane sa dwa jezyki A ok R ok T nie ma czasu
+2 S nie ma powodu M ok A nie ma jak R ok T nie ma
+3 S nie ma powodów i nie odpowiada na pytanie M podany jest 1 jezyk A ok R ok T nie ma czasu
+4 S nie jest M nie ma ile modulow itp A nie ma R ok T nie ma
+5 S ok M nie ma A nie ma R ok T nie ma
+6 S ok M ok A ok R ok T ok
+7 S ok M nie ma A nie ma R ok T nie ma info
+8 S ok M ok 1 api A ok R ok T ok
+
+5 Ile widoków powinno być dostępnych dla uzytkownika

@@ -1,0 +1,237 @@
+drop function if exists return_books
+go
+
+create function return_books(@max_dni int) returns table
+	return select PESEL, Count(Liczba_Dni) as Egzemplarze 
+	from dbo.Wypozyczenie INNER JOIN Czytelnik ON Czytelnik.Czytelnik_ID=Wypozyczenie.Czytelnik_ID 
+	where Liczba_Dni > @max_dni 
+	group by PESEL 
+go
+
+select * from dbo.return_books(5)
+go
+
+
+DROP TABLE IF EXISTS imiona
+DROP TABLE IF EXISTS nazwiska
+DROP TABLE IF EXISTS dane
+
+CREATE TABLE imiona (id INT PRIMARY KEY, imie varchar(50))
+CREATE TABLE nazwiska (id INT PRIMARY KEY, nazwisko varchar(50))
+CREATE TABLE dane (imie varchar(50), nazwisko varchar(50), PRIMARY KEY(imie,nazwisko))
+
+INSERT INTO imiona VALUES(1,'Jan')
+INSERT INTO imiona VALUES(2,'Tomasz')
+
+INSERT INTO nazwiska VALUES(1,'Kowalski')
+INSERT INTO nazwiska VALUES(2,'Nowak')
+
+DROP PROCEDURE IF EXISTS zad2
+GO
+
+CREATE PROCEDURE zad2 @n int
+AS
+BEGIN
+	DECLARE @lenN int
+	DECLARE @lenI int
+	SET @lenN = (SELECT COUNT(DISTINCT nazwisko) FROM nazwiska)
+	SET @lenI = (SELECT COUNT(DISTINCT imie) FROM imiona)
+	IF (@n > (@lenN * @lenI)/2)
+	BEGIN
+		;THROW 51000, 'Ponad polowa kombinacji',1;
+	END
+
+	DECLARE @rN varchar(50)
+	DECLARE @rI varchar(50)
+
+	WHILE @n > 0
+	BEGIN
+		SET @rN = (SELECT TOP 1 nazwisko FROM nazwiska ORDER BY NEWID())
+		SET @rI = (SELECT TOP 1 imie FROM imiona ORDER BY NEWID())
+		IF NOT EXISTS (SELECT * FROM dane WHERE @rN = nazwisko AND @rI = imie) 
+			BEGIN
+			INSERT INTO dane VALUES(@rI, @rN)
+			SET @n  = @n - 1
+			END
+	END
+
+END
+GO
+
+EXEC zad2 @n = 4
+GO
+
+SELECT * FROM dane
+
+
+DROP PROCEDURE IF EXISTS zad3
+GO
+
+CREATE PROCEDURE zad3 (@nazwisko varchar(30), @PESEL char(11), @dataur date) AS 
+BEGIN
+DECLARE @x BIT
+SET @x = 1
+DECLARE @dataJakoString char(8)
+SET @dataJakoString = CONVERT(char(8), @dataur, 112)
+IF NOT (LEN(@PESEL) = 11)
+	BEGIN
+	PRINT 'PESEL to 11 cyferek'
+	SET @x = 0
+	END
+IF NOT (SUBSTRING(@nazwisko, 1, 1) = LOWER(SUBSTRING(@nazwisko, 1, 1)))
+	BEGIN
+	PRINT 'Nazwisko z duzej!'
+	SET @x = 0
+	END
+IF NOT (LEN(@nazwisko) > 1)
+	BEGIN
+	PRINT 'Nazwisko długość conajmiej 2!'
+	SET @x = 0
+	END
+IF (SUBSTRING(@dataJakoString, 3, 2) != SUBSTRING(@PESEL, 1, 2) OR SUBSTRING(@dataJakoString, 5, 2) != SUBSTRING(@PESEL, 3, 2) OR SUBSTRING(@dataJakoString, 7, 2) != SUBSTRING(@PESEL, 5, 2))
+	BEGIN
+	PRINT 'Data niezgodna z PESELem!'
+	SET @x = 0
+	END
+IF(@x = 1)
+	BEGIN
+	INSERT INTO Czytelnik (PESEL, Nazwisko, Data_Urodzenia, Miasto) VALUES(@PESEL, @nazwisko, @dataur, 'Szczecin')
+	END
+END
+GO
+
+EXEC zad3 @nazwisko = 'Kowalski', @PESEL = '81010200141', @dataur = '1981-01-02'
+GO
+
+
+DROP PROCEDURE IF EXISTS z4;
+GO
+
+DROP TYPE IF EXISTS List;
+GO
+
+DROP TYPE IF EXISTS readerAndDaySum;
+GO
+
+
+CREATE TYPE List AS TABLE
+( Identifier INT);
+GO
+
+CREATE TYPE readerAndDaySum AS TABLE (
+    czytelnik_id int, 
+    suma_dni int
+)
+GO
+
+CREATE PROCEDURE z4 @List List READONLY
+AS
+BEGIN
+    SELECT Czytelnik_ID, SUM(Liczba_dni)
+    FROM Wypozyczenie
+    INNER JOIN @List ON Identifier = Czytelnik_ID
+    GROUP BY Czytelnik_ID
+END
+GO
+
+
+DECLARE @list List
+INSERT INTO @list VALUES(1)
+INSERT INTO @list VALUES(2)
+INSERT INTO @list VALUES(3)
+
+DECLARE @idday readerAndDaySum
+
+INSERT @idday 
+EXEC z4 @list
+
+SELECT * FROM @idday
+GO
+
+
+declare @t1 table (ID int)
+insert into @t1 values(1)
+select * from @t1
+select * from tempdb.INFORMATION_SCHEMA.tables
+
+DROP TABLE IF EXISTS #Tablica;
+CREATE TABLE #Tablica(klucz int not null primary key, wartosc varchar(20));
+select * from tempdb.#Tablica
+insert into #Tablica values(1,'a')
+
+DROP TABLE IF EXISTS ##Tablica;
+CREATE TABLE ##Tablica(klucz int not null primary key, wartosc varchar(20));
+insert into ##Tablica values(1,'a')
+select * from tempdb.##Tablica
+
+drop procedure if exists procedura1
+go
+
+
+create procedure procedura1
+as 
+begin
+	CREATE TABLE #Tablica(klucz int not null primary key, wartosc varchar(20));
+--	insert into #Tablica values(1,'a')
+end
+go
+exec procedura1
+
+drop procedure if exists procedura2
+go
+create procedure procedura2 @i int output
+as 
+begin
+	select wartosc from tempdb.#Tablica where klucz = 1
+end
+go
+declare @i int
+exec procedura2 @i output
+print @i
+
+select * from tempdb.INFORMATION_SCHEMA.tables
+
+-- https://www.mssqltips.com/sqlservertip/1556/differences-between-sql-server-temporary-tables-and-table-variables/
+
+
+
+
+
+
+DROP PROCEDURE IF EXISTS z6;
+GO
+
+DROP TYPE IF EXISTS List;
+GO
+
+CREATE TYPE List AS TABLE
+( Identifier INT);
+GO
+
+CREATE PROCEDURE z6 @List List READONLY, @DesiredDate DATE
+AS
+BEGIN
+    DECLARE @ifnull INT
+    SET @ifnull = (SELECT COUNT(DiscontinuedDate)
+                    FROM SalesLT.Product
+                    INNER JOIN @List ON SalesLT.Product.ProductID = Identifier
+                    WHERE DiscontinuedDate IS NOT NULL)
+    IF (@ifnull > 0)
+        PRINT 'Date not null'
+    ELSE
+        BEGIN
+            UPDATE SalesLT.Product
+            SET DiscontinuedDate = @DesiredDate
+            FROM SalesLT.Product
+            INNER JOIN @List ON SalesLT.Product.ProductID = Identifier
+        END
+END
+GO
+
+DECLARE @d DATETIME
+SET @d = GETDATE()
+
+DECLARE @list List
+INSERT INTO @list VALUES(680)
+EXEC z6 @list, @d
+GO

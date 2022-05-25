@@ -1,0 +1,7 @@
+MATCH (:Person {name: "Johnny Depp"})-[:ACTED_IN]->(m) RETURN m
+
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie), (p)-[:DIRECTED]->(m) return p
+
+MATCH (p:Person)-[ain:ACTED_IN]->(m:Movie) with p, count(m) as counter WHERE counter = 0 return p
+
+MATCH (p:Person)-[ain:ACTED_IN]->(m:Movie) with p, count(m) as counter WHERE counter > 4 return p

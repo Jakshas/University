@@ -52,8 +52,8 @@ C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\bin\roslyn\VBCSCompiler.
 C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\bin\roslyn\VBCSCompiler.exe.config
 C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csprojAssemblyReference.cache
 C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.CoreCompileInputs.cache
 C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.CopyComplete
 C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\obj\Debug\Zadanie2.dll
 C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\obj\Debug\Zadanie2.pdb
+C:\Projekty\University\ASP.NET\lista4\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.AssemblyReference.cache

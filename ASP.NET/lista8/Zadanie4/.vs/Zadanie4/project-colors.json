@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9199c04f-af17-4ddf-98e1-fbb5f06aab45": {
+      "ProjectGuid": "9199c04f-af17-4ddf-98e1-fbb5f06aab45",
+      "DisplayName": "Zadanie4",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Różne pliki",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

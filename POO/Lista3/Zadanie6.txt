@@ -1,0 +1,2 @@
+SRP mówi o tym ze moguł powinien miec jedna odpowiedzialność  a ISP mówi o tym by kod nie zalezał od czegoś czego nie potrzebujemy
+ISP skupia się bardzije na kodzie klienckim a SRP na implementujacym interfejs. 

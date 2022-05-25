@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <div>
+            <button id="invokeFetchPOST">Invoke POST with fetch</button><br />
+            <button id="invokeFetchGET">Invoke GET with fetch</button>
+        </div>
+        <div>
+            <textarea id="resultArea" cols="80" rows="25"></textarea>
+        </div>
+    </div>
+    <script>
+        var examplePerson = {
+            ID: 12,
+            Name: 'foo bar'
+        };
+        window.invokeFetchPOST.onclick = function () {
+            // https://developer.mozilla.org/enUS/docs/Web/API/Fetch_API/Using_Fetch
+            console.log("Wszedlem");
+            fetch('/api/Home', {
+                method: 'POST',
+                headers: {
+                    'Content-type': 'application/json',
+                    'api_key': '123'
+                },
+                body: JSON.stringify(examplePerson)
+            })
+                .then(function (result) {
+                    return result.text();
+                })
+                .then(function (result) {
+                    window.resultArea.innerHTML = result;
+                });
+        };
+        window.invokeFetchGET.onclick = function () {
+            // https://developer.mozilla.org/enUS/docs/Web/API/Fetch_API/Using_Fetch
+            console.log("Wszedlem");
+            fetch('/api/Home', {
+                method: 'GET',
+                headers: {
+                    'Content-type': 'application/json',
+                    'api_key': '123'
+                },
+            })
+                .then(function (result) {
+                    return result.text();
+                })
+                .then(function (result) {
+                    window.resultArea.innerHTML = result;
+                });
+        };
+    </script>
+</body>
+</html>

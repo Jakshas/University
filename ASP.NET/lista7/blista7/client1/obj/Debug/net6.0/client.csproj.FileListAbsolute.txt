@@ -1,0 +1,17 @@
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.csproj.AssemblyReference.cache
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.AssemblyInfoInputs.cache
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.AssemblyInfo.cs
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.csproj.CoreCompileInputs.cache
+C:\Users\Bajek\Desktop\ASP\client\bin\Debug\net6.0\client.exe
+C:\Users\Bajek\Desktop\ASP\client\bin\Debug\net6.0\client.deps.json
+C:\Users\Bajek\Desktop\ASP\client\bin\Debug\net6.0\client.runtimeconfig.json
+C:\Users\Bajek\Desktop\ASP\client\bin\Debug\net6.0\client.dll
+C:\Users\Bajek\Desktop\ASP\client\bin\Debug\net6.0\ref\client.dll
+C:\Users\Bajek\Desktop\ASP\client\bin\Debug\net6.0\client.pdb
+C:\Users\Bajek\Desktop\ASP\client\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.csproj.CopyComplete
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.dll
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\ref\client.dll
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.pdb
+C:\Users\Bajek\Desktop\ASP\client\obj\Debug\net6.0\client.genruntimeconfig.cache

@@ -1,0 +1,2 @@
+by wykonac zadanie 1 i 3 z poprzedniej listy stworzyłem nowe rozwiazanie do plików 
+cs znadujacych sie w tych rozwiazaniach i odpalilem je odpowiednim poleceniem

@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Shop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        }
+      },
+      "Shop.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shop.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Domain/Shop.Domain.csproj",
+      "msbuildProject": "../Shop.Domain/Shop.Domain.csproj"
+    },
+    "Shop.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Infrastructure/Shop.Infrastructure.csproj",
+      "msbuildProject": "../Shop.Infrastructure/Shop.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Shop.Domain >= 1.0.0",
+      "Shop.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jakub\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projekty\\University\\Bazy\\Lista10\\Shop\\Shop.Application\\Shop.Application.csproj",
+      "projectName": "Shop.Application",
+      "projectPath": "C:\\Projekty\\University\\Bazy\\Lista10\\Shop\\Shop.Application\\Shop.Application.csproj",
+      "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
+      "outputPath": "C:\\Projekty\\University\\Bazy\\Lista10\\Shop\\Shop.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Projekty\\University\\Bazy\\Lista10\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+              "projectPath": "C:\\Projekty\\University\\Bazy\\Lista10\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+            },
+            "C:\\Projekty\\University\\Bazy\\Lista10\\Shop\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
+              "projectPath": "C:\\Projekty\\University\\Bazy\\Lista10\\Shop\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+zrobilem odpalajac aplikacje w folderach "clientX" na poprzedniej liscie

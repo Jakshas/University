@@ -1,0 +1,15 @@
+create(:Person{born:1959, name: "Johnny Depp"})
+create(:Person{born:1983, name: "Chris Pratt"})
+
+create(:Movie{released:2022, title:"Film 1", description:"1"})
+create(:Movie{released:2023, title:"Film 2", description:"2"})
+
+match(m:Movie{title : "Film 1"}) set m.actors = 10 return m
+match(m:Movie{title : "Film 1"}) set m.earnings=1000 return m
+
+match(m:Movie{title : "Film 1"}) match(p:Person{name : "Johnny Depp"}) merge (p)-[:ACTED_IN]->(m)
+match(m:Movie{title : "Film 1"}) match(p:Person{name : "Chris Pratt"}) merge (p)-[:ACTED_IN]->(m)
+
+match(m:Movie{title : "Film 1"}) set m.earnings=toString(2000) return m
+
+match(:Person{name : "Johnny Depp"})-[ain:ACTED_IN]->(m:Movie{title:"Film 1"}) delete ain

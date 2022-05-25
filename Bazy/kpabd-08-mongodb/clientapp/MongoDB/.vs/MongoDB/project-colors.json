@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4cd4a1ea-99dc-4c30-b2ad-88ad154af539": {
+      "ProjectGuid": "4cd4a1ea-99dc-4c30-b2ad-88ad154af539",
+      "DisplayName": "MongoDBClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

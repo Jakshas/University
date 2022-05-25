@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/src/Logger.hpp
+string
+-
+memory
+-
+SqlDataSaver.hpp
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/src/SqlDataSaver.hpp
+
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/src/SqlDataSaver.hpp
+string
+-
+iostream
+-
+
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/src/main.cpp
+SqlDataSaver.hpp
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/src/SqlDataSaver.hpp
+Logger.hpp
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/src/Logger.hpp
+

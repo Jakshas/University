@@ -1,0 +1,25 @@
+class UsosWebPage{
+    GradeController g;
+    show(){
+        g.getStudentGradeInfo();
+    }
+}
+
+class GradeController{
+    student[];
+    pageLayout getStudentGradeInfo(){
+        courses = student[Student].getCourses();
+        foreach(course in courses){
+            mark = getMark(student);
+        }
+        return pageLayout;
+    }
+}
+
+class course{
+    getMark(student s){
+        return getValue(s);
+    }
+    getValue(){
+    }
+}

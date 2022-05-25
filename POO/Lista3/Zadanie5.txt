@@ -1,0 +1,5 @@
+Klasą naruszającą ISP jest Array z C#. Jeśli zostaje wywoałana metoda Add to zwrócony zostaje NotSupportedException.
+Wynika to z tego ze w tablciach nie mozemy dodac elementu na koniec bo maja stałą liczbe elementów. Co oznacza że dana 
+funkcja interfejsu nie moze byc zaimplementowana co sie kłuci z naszą zasdą. By naprawić tą klase trzeba by było dac
+jej inny interfejs który by mogła implementować bez tej funkcji np ArrayI a dodac nie mozna metody Add bo kluci sie z 
+załozeniem Array

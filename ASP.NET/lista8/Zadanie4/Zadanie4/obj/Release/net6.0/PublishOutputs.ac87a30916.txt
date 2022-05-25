@@ -1,0 +1,7 @@
+C:\Projekty\University\ASP.NET\lista8\Zadanie4\Zadanie4\obj\Release\net6.0\PubTmp\Out\Zadanie4.exe
+C:\Projekty\University\ASP.NET\lista8\Zadanie4\Zadanie4\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Projekty\University\ASP.NET\lista8\Zadanie4\Zadanie4\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Projekty\University\ASP.NET\lista8\Zadanie4\Zadanie4\obj\Release\net6.0\PubTmp\Out\Zadanie4.dll
+C:\Projekty\University\ASP.NET\lista8\Zadanie4\Zadanie4\obj\Release\net6.0\PubTmp\Out\Zadanie4.deps.json
+C:\Projekty\University\ASP.NET\lista8\Zadanie4\Zadanie4\obj\Release\net6.0\PubTmp\Out\Zadanie4.runtimeconfig.json
+C:\Projekty\University\ASP.NET\lista8\Zadanie4\Zadanie4\obj\Release\net6.0\PubTmp\Out\Zadanie4.pdb

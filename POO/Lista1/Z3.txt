@@ -1,0 +1,2 @@
+Różnice między pojeciowym a klas jest to ze klas posiada typy i funkcje. Klass jest bardzijesz szczegułowy 
+i nie zawiera każdej relacji jako lini łaczącej dwa pojecia a taka relacja moze tez miec forme funkcji.

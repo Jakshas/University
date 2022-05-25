@@ -1,0 +1,13 @@
+/mnt/c/Projekty/University/PARO/STL/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Projekty/University/PARO/STL/build/CMakeFiles/pow2.dir
+/mnt/c/Projekty/University/PARO/STL/build/CMakeFiles/cheap.dir
+/mnt/c/Projekty/University/PARO/STL/build/CMakeFiles/edit_cache.dir
+/mnt/c/Projekty/University/PARO/STL/build/CMakeFiles/dup.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/CMakeFiles/rebuild_cache.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/CMakeFiles/edit_cache.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/CMakeFiles/gmock_main.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/CMakeFiles/gmock.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/gtest/CMakeFiles/rebuild_cache.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/gtest/CMakeFiles/edit_cache.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/gtest/CMakeFiles/gtest_main.dir
+/mnt/c/Projekty/University/PARO/STL/build/gmock-1.7.0/gtest/CMakeFiles/gtest.dir

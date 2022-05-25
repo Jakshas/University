@@ -71,8 +71,8 @@ C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\bin\pl\System.Web.Webpag
 C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\bin\pl\System.Web.Webpages.Razor.resources.dll
 C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\bin\pl\System.Web.Helpers.resources.dll
 C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\bin\pl\System.Web.Mvc.resources.dll
-C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csprojAssemblyReference.cache
 C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.CoreCompileInputs.cache
 C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.CopyComplete
 C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\obj\Debug\Zadanie1.dll
 C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\obj\Debug\Zadanie1.pdb
+C:\Projekty\University\ASP.NET\lista6\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.AssemblyReference.cache

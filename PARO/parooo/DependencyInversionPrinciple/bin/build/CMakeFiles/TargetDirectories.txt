@@ -1,0 +1,8 @@
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/CMakeFiles/rebuild_cache.dir
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/CMakeFiles/edit_cache.dir
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/src/CMakeFiles/rebuild_cache.dir
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/src/CMakeFiles/edit_cache.dir
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/src/CMakeFiles/bin.dir
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/tests/CMakeFiles/rebuild_cache.dir
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/tests/CMakeFiles/edit_cache.dir
+/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/build/tests/CMakeFiles/SqlDataSaverTests.dir

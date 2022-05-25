@@ -1,0 +1,7 @@
+C:\Users\Bajek\Desktop\ASP\lista8\zad4\zad3\obj\Release\net6.0\PubTmp\Out\zad3.exe
+C:\Users\Bajek\Desktop\ASP\lista8\zad4\zad3\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Bajek\Desktop\ASP\lista8\zad4\zad3\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Bajek\Desktop\ASP\lista8\zad4\zad3\obj\Release\net6.0\PubTmp\Out\zad3.dll
+C:\Users\Bajek\Desktop\ASP\lista8\zad4\zad3\obj\Release\net6.0\PubTmp\Out\zad3.deps.json
+C:\Users\Bajek\Desktop\ASP\lista8\zad4\zad3\obj\Release\net6.0\PubTmp\Out\zad3.runtimeconfig.json
+C:\Users\Bajek\Desktop\ASP\lista8\zad4\zad3\obj\Release\net6.0\PubTmp\Out\zad3.pdb

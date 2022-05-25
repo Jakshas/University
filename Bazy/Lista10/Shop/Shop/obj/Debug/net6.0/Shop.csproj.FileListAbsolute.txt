@@ -1,0 +1,15 @@
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\bin\Debug\net6.0\Shop.exe
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\bin\Debug\net6.0\Shop.deps.json
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\bin\Debug\net6.0\Shop.runtimeconfig.json
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\bin\Debug\net6.0\Shop.dll
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\bin\Debug\net6.0\ref\Shop.dll
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\bin\Debug\net6.0\Shop.pdb
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.csproj.AssemblyReference.cache
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.AssemblyInfoInputs.cache
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.AssemblyInfo.cs
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.csproj.CoreCompileInputs.cache
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.dll
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\ref\Shop.dll
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.pdb
+C:\Projekty\University\Bazy\Lista10\Shop\Shop\obj\Debug\net6.0\Shop.genruntimeconfig.cache

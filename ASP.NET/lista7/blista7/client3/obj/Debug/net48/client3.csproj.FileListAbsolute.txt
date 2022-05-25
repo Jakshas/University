@@ -1,0 +1,6 @@
+C:\Users\Bajek\Desktop\ASP\client3\obj\Debug\net48\client3.csproj.AssemblyReference.cache
+C:\Users\Bajek\Desktop\ASP\client3\obj\Debug\net48\client3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bajek\Desktop\ASP\client3\obj\Debug\net48\client3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bajek\Desktop\ASP\client3\obj\Debug\net48\client3.AssemblyInfoInputs.cache
+C:\Users\Bajek\Desktop\ASP\client3\obj\Debug\net48\client3.AssemblyInfo.cs
+C:\Users\Bajek\Desktop\ASP\client3\obj\Debug\net48\client3.csproj.CoreCompileInputs.cache

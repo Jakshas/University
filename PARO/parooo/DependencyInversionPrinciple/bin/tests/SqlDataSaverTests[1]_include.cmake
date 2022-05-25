@@ -1,0 +1,5 @@
+if(EXISTS "/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/tests/SqlDataSaverTests[1]_tests.cmake")
+  include("/home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/tests/SqlDataSaverTests[1]_tests.cmake")
+else()
+  add_test(SqlDataSaverTests_NOT_BUILT SqlDataSaverTests_NOT_BUILT)
+endif()

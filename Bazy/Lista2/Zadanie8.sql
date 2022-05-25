@@ -1,0 +1,11 @@
+SELECT * 
+FROM INFORMATION_SCHEMA.CHECK_CONSTRAINTS
+
+ALTER TABLE SalesLT.SalesOrderHeader
+ADD CONSTRAINT c CHECK ([ShipDate]>=[OrderDate] OR [ShipDate] IS NULL);
+
+ALTER TABLE SalesLT.SalesOrderHeader
+DROP CONSTRAINT c
+
+UPDATE SalesLT.SalesOrderHeader
+SET OrderDate = '2009/06/08' WHERE	SalesOrderID = 71774

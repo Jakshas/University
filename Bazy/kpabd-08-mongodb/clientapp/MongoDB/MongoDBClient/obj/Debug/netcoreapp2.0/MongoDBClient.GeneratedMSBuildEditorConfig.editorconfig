@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MongoDBClient
+build_property.ProjectDir = C:\Projekty\University\Bazy\kpabd-08-mongodb\clientapp\MongoDB\MongoDBClient\

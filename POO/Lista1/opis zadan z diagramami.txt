@@ -1,0 +1,3 @@
+W zadaniach tych postarałęm sie zając się temamtem jakim jest lubiana przezemnie gra bitewna warhammer.
+Niestety miałem ogromny problem z diagramem sekfencyjnym dla tego problemu. Większośc diagramów opisuje 
+schemat przebiegu tury.

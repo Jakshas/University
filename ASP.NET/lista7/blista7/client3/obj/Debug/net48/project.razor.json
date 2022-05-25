@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\Bajek\\Desktop\\ASP\\client3\\client3.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 2147483646
+  },
+  "RootNamespace": "client3",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

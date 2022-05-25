@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "AW8abwNAEUG9mB7vhsZY7WyFClkopMcdS95sbaooAHAC/jubgaNqvW/VpgqPDSQY1YlMyX0n2+qjz/c7xrX2Qg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bajek\\Desktop\\ASP\\client3\\client3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bajek\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Bajek\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.0\\microsoft.identitymodel.jsonwebtokens.6.15.0.nupkg.sha512",
+    "C:\\Users\\Bajek\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.0\\microsoft.identitymodel.logging.6.15.0.nupkg.sha512",
+    "C:\\Users\\Bajek\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.0\\microsoft.identitymodel.tokens.6.15.0.nupkg.sha512",
+    "C:\\Users\\Bajek\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Bajek\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.0\\system.identitymodel.tokens.jwt.6.15.0.nupkg.sha512",
+    "C:\\Users\\Bajek\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

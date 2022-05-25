@@ -1,0 +1,1 @@
+Konfiguracje mozemy odczytac zpliku appsettings.json i z pliku launchSettings.json.

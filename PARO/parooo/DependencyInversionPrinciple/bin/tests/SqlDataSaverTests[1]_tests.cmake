@@ -1,0 +1,5 @@
+add_test( SqlDataSaverTests.shouldReturnEmptyVectorWhenNoDataStored /home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/tests/SqlDataSaverTests [==[--gtest_filter=SqlDataSaverTests.shouldReturnEmptyVectorWhenNoDataStored]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SqlDataSaverTests.shouldReturnEmptyVectorWhenNoDataStored PROPERTIES WORKING_DIRECTORY /home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/tests)
+add_test( SqlDataSaverTests.shouldReturnStoredData /home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/tests/SqlDataSaverTests [==[--gtest_filter=SqlDataSaverTests.shouldReturnStoredData]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SqlDataSaverTests.shouldReturnStoredData PROPERTIES WORKING_DIRECTORY /home/tonderys/GitLabProjects/SolidExamples/DependencyInversionPrinciple/bin/tests)
+set( SqlDataSaverTests_TESTS SqlDataSaverTests.shouldReturnEmptyVectorWhenNoDataStored SqlDataSaverTests.shouldReturnStoredData)

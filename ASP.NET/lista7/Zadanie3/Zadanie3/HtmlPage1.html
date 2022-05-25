@@ -1,0 +1,55 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <div>
+        <div>
+            <button id="invokeXHR">Invoke with XMLHttpRequest</button>
+        </div>
+        <div>
+            <button id="invokeFetch">Invoke with fetch</button>
+        </div>
+        <div>
+            <textarea id="resultArea" cols="80" rows="25"></textarea>
+        </div>
+    </div>
+    <script>
+        var examplePerson = {
+            ID: 3,
+            Name: 'Jakub Szajner'
+        };
+
+        window.addEventListener('load', function () {
+            window.invokeXHR.onclick = function () {
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '/api/Student');
+                xhr.setRequestHeader("Content-Type", "application/json");
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == XMLHttpRequest.DONE) {
+                        window.resultArea.innerHTML = xhr.responseText;
+                    }
+                };
+                xhr.send(JSON.stringify(examplePerson));
+            };
+            window.invokeFetch.onclick = function () {
+                // https://developer.mozilla.org/enUS/docs/Web/API/Fetch_API/Using_Fetch
+                fetch('/api/Student', {
+                    method: 'POST',
+                    headers: {
+                        'Content-type': 'application/json',
+                        'api_key': '123'
+                    },
+                    body: JSON.stringify(examplePerson)
+                })
+                .then(function (result) {
+                    return result.text();
+                })
+                .then(function (result) {
+                    window.resultArea.innerHTML = result;
+                });
+            };
+        });
+    </script>
+</body>
+</html>

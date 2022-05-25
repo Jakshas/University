@@ -1,0 +1,15 @@
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\bin\Debug\net6.0\Zadanie2.exe
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\bin\Debug\net6.0\Zadanie2.deps.json
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\bin\Debug\net6.0\Zadanie2.runtimeconfig.json
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\bin\Debug\net6.0\Zadanie2.dll
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\bin\Debug\net6.0\ref\Zadanie2.dll
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\bin\Debug\net6.0\Zadanie2.pdb
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.csproj.AssemblyReference.cache
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.AssemblyInfoInputs.cache
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.AssemblyInfo.cs
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.csproj.CoreCompileInputs.cache
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.dll
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\ref\Zadanie2.dll
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.pdb
+C:\Projekty\University\POO\Lista5\Zadanie2\Zadanie2\obj\Debug\net6.0\Zadanie2.genruntimeconfig.cache

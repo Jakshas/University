@@ -1,0 +1,2 @@
+Opublikowałem aplikacje, zainstalowałem .NET Core Hosting Bundle
+a nastepnie klasycznie tak jak to robilismy na początku semestru zachostowałem aplikacje na IIS
